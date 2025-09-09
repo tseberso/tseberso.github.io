@@ -30,11 +30,11 @@ export function Sidebar() {
   return (
     <aside className="w-80 bg-sidebar border-r border-sidebar-border p-6 flex flex-col">
       {/* Profile Photo */}
-      <div className="flex justify-center mb-6">
+      <div className="flex justify-center mt-8 mb-6">
         <img 
           src="/profile-photo.jpg" 
           alt="Troy Seberson"
-          className="w-48 h-48 rounded-lg object-cover"
+          className="w-48 h-56 rounded-lg object-cover object-top"
         />
       </div>
 
