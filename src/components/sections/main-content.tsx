@@ -19,9 +19,9 @@ export function MainContent() {
           <div>
             <h3 className="text-xl font-semibold text-slate-100 mb-4">Summary</h3>
             <p className="text-slate-100 leading-relaxed">
-              [Your professional summary here - replace with your background, experience, and current focus. 
-              For example: Ph.D. in Computer Science with X years of experience in machine learning and data science. 
-              Currently working on innovative solutions in AI/ML with a focus on real-world applications.]
+              Ph.D in Theoretical/Computationl Physics with over 10 years of experience in programming, modeling, and research.
+              Five years of hands-on industry experience in finance, fintech, and cryptocurrency developing and shipping quantiative products and trading strategies backed by extensive data science and engineering. 
+              In my current role I am focused on building advanced, novel machine learning models for prediction and trading. 
             </p>
           </div>
 
@@ -30,11 +30,8 @@ export function MainContent() {
           <div>
             <h3 className="text-xl font-semibold text-slate-100 mb-4">Career</h3>
             <p className="text-slate-100 leading-relaxed mb-4">
-              I am currently a <strong>Senior Software Engineer</strong> at{" "}
-              <a href="#" className="text-blue-400 hover:underline">
-                [Your Company]
-              </a>{" "}
-              working on [brief description of your current role and responsibilities].
+              I am currently a <strong>Quantitative Researcher</strong> at Steady State Capital
+              generating insights and strategies using machine learning, reinforcement learning, and LLM agent-based modeling.
             </p>
 
             <div className="space-y-4">
@@ -43,15 +40,15 @@ export function MainContent() {
                 <ul className="space-y-2 text-slate-100">
                   <li className="flex items-start gap-2">
                     <span className="text-blue-400 mt-1">•</span>
-                    <span>[Achievement 1 - e.g., Led development of ML model that improved accuracy by X%]</span>
+                    <span>Designed and validated an automated market-making strategy that achieved a 3.5 Sharpe ratio in a four-month, walk-forward out-of-sample test on high-frequency data.</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-blue-400 mt-1">•</span>
-                    <span>[Achievement 2 - e.g., Built scalable data pipeline processing Y records daily]</span>
+                    <span>Researched and engineered custom-built sequential-learning models—transformers, LSTMs, and reinforcement-learning agents—to optimize inventory, quoting, and hedging decisions.</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-blue-400 mt-1">•</span>
-                    <span>[Achievement 3 - e.g., Published Z papers in top-tier conferences]</span>
+                  <span className="text-blue-400 mt-1">•</span>
+                    <span> Authored high-performance Python libraries that ingest, cleanse, and store various data fields, cutting data-processing latency by 80% and enabling daily model retraining. </span>
                   </li>
                 </ul>
               </div>
@@ -61,11 +58,7 @@ export function MainContent() {
                 <ul className="space-y-2 text-slate-100">
                   <li className="flex items-start gap-2">
                     <span className="text-blue-400 mt-1">•</span>
-                    <span>[Leadership example 1]</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-blue-400 mt-1">•</span>
-                    <span>[Leadership example 2]</span>
+                    <span>Directed and mentored a two-engineer team that built the cloud-native execution stack on AWS (Python | Django REST | micro-services), reviewed PRs, and set code-quality and risk-control standards.</span>
                   </li>
                 </ul>
               </div>
