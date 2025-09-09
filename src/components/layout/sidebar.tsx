@@ -28,7 +28,7 @@ export function Sidebar() {
   ];
 
   return (
-    <aside className="w-80 bg-sidebar border-r border-sidebar-border p-6 flex flex-col">
+    <aside className="w-80 bg-slate-800 border-r border-slate-700 p-6 flex flex-col">
       {/* Profile Photo */}
       <div className="flex justify-center mt-8 mb-6">
         <img 
@@ -40,13 +40,13 @@ export function Sidebar() {
 
       {/* Name and Title */}
       <div className="text-center mb-6">
-        <h1 className="text-2xl font-bold text-foreground mb-1">Troy Seberson</h1>
-        <p className="text-muted-foreground mb-1">(Ph.D.)</p>
-        <div className="flex items-center justify-center gap-1 text-muted-foreground mb-2">
+        <h1 className="text-2xl font-bold text-slate-100 mb-1">Troy Seberson</h1>
+        <p className="text-slate-300 mb-1">(Ph.D.)</p>
+        <div className="flex items-center justify-center gap-1 text-slate-300 mb-2">
           <MapPin className="w-4 h-4" />
           <span>Plymouth, MN</span>
         </div>
-        <div className="flex items-center justify-center gap-1 text-primary">
+        <div className="flex items-center justify-center gap-1 text-blue-400">
           <Mail className="w-4 h-4" />
           <a href="mailto:tseberso@gmail.com" className="hover:underline">
             tseberso@gmail.com
@@ -80,9 +80,9 @@ export function Sidebar() {
 
       {/* Sections Navigation */}
       <div className="mb-6">
-        <h3 className="font-semibold text-foreground mb-3">Sections</h3>
+        <h3 className="font-semibold text-slate-100 mb-3">Sections</h3>
         <div className="space-y-1">
-          <Button variant="ghost" size="sm" className="w-full justify-start text-primary" asChild>
+          <Button variant="ghost" size="sm" className="w-full justify-start text-blue-400" asChild>
             <a href="#about">About Me</a>
           </Button>
           <Button variant="ghost" size="sm" className="w-full justify-start" asChild>
@@ -104,10 +104,10 @@ export function Sidebar() {
 
       {/* Keywords */}
       <div className="mb-6">
-        <h3 className="font-semibold text-foreground mb-3">Keywords</h3>
+        <h3 className="font-semibold text-slate-100 mb-3">Keywords</h3>
         <div className="space-y-1">
           {keywords.map((keyword) => (
-            <div key={keyword} className="text-sm text-muted-foreground">
+            <div key={keyword} className="text-sm text-slate-300">
               {keyword}
             </div>
           ))}
@@ -118,10 +118,10 @@ export function Sidebar() {
 
       {/* Programming Experience */}
       <div>
-        <h3 className="font-semibold text-foreground mb-3">Programming Experience</h3>
+        <h3 className="font-semibold text-slate-100 mb-3">Programming Experience</h3>
         <div className="space-y-1">
           {programmingSkills.map((skill) => (
-            <div key={skill} className="text-sm text-muted-foreground">
+            <div key={skill} className="text-sm text-slate-300">
               {skill}
             </div>
           ))}

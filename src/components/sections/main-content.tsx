@@ -9,16 +9,16 @@ export function MainContent() {
       {/* About Me Section */}
       <section id="about" className="mb-12">
         <div className="mb-8">
-          <h2 className="text-3xl font-bold text-foreground mb-2 flex items-center gap-2">
-            <span className="text-primary">📋</span>
+          <h2 className="text-3xl font-bold text-slate-100 mb-2 flex items-center gap-2">
+            <span className="text-blue-400">📋</span>
             About Me
           </h2>
         </div>
 
         <div className="space-y-8">
           <div>
-            <h3 className="text-xl font-semibold text-foreground mb-4">Summary</h3>
-            <p className="text-foreground leading-relaxed">
+            <h3 className="text-xl font-semibold text-slate-100 mb-4">Summary</h3>
+            <p className="text-slate-100 leading-relaxed">
               [Your professional summary here - replace with your background, experience, and current focus. 
               For example: Ph.D. in Computer Science with X years of experience in machine learning and data science. 
               Currently working on innovative solutions in AI/ML with a focus on real-world applications.]
@@ -28,10 +28,10 @@ export function MainContent() {
           <Separator />
 
           <div>
-            <h3 className="text-xl font-semibold text-foreground mb-4">Career</h3>
-            <p className="text-foreground leading-relaxed mb-4">
+            <h3 className="text-xl font-semibold text-slate-100 mb-4">Career</h3>
+            <p className="text-slate-100 leading-relaxed mb-4">
               I am currently a <strong>Senior Software Engineer</strong> at{" "}
-              <a href="#" className="text-primary hover:underline">
+              <a href="#" className="text-blue-400 hover:underline">
                 [Your Company]
               </a>{" "}
               working on [brief description of your current role and responsibilities].
@@ -39,32 +39,32 @@ export function MainContent() {
 
             <div className="space-y-4">
               <div>
-                <h4 className="font-semibold text-foreground mb-2">Key Achievements:</h4>
-                <ul className="space-y-2 text-foreground">
+                <h4 className="font-semibold text-slate-100 mb-2">Key Achievements:</h4>
+                <ul className="space-y-2 text-slate-100">
                   <li className="flex items-start gap-2">
-                    <span className="text-primary mt-1">•</span>
+                    <span className="text-blue-400 mt-1">•</span>
                     <span>[Achievement 1 - e.g., Led development of ML model that improved accuracy by X%]</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-primary mt-1">•</span>
+                    <span className="text-blue-400 mt-1">•</span>
                     <span>[Achievement 2 - e.g., Built scalable data pipeline processing Y records daily]</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-primary mt-1">•</span>
+                    <span className="text-blue-400 mt-1">•</span>
                     <span>[Achievement 3 - e.g., Published Z papers in top-tier conferences]</span>
                   </li>
                 </ul>
               </div>
 
               <div>
-                <h4 className="font-semibold text-foreground mb-2">Technical Leadership:</h4>
-                <ul className="space-y-2 text-foreground">
+                <h4 className="font-semibold text-slate-100 mb-2">Technical Leadership:</h4>
+                <ul className="space-y-2 text-slate-100">
                   <li className="flex items-start gap-2">
-                    <span className="text-primary mt-1">•</span>
+                    <span className="text-blue-400 mt-1">•</span>
                     <span>[Leadership example 1]</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-primary mt-1">•</span>
+                    <span className="text-blue-400 mt-1">•</span>
                     <span>[Leadership example 2]</span>
                   </li>
                 </ul>
@@ -77,8 +77,8 @@ export function MainContent() {
       {/* Projects Section */}
       <section id="projects" className="mb-12">
         <div className="mb-8">
-          <h2 className="text-3xl font-bold text-foreground mb-2 flex items-center gap-2">
-            <span className="text-primary">🚀</span>
+          <h2 className="text-3xl font-bold text-slate-100 mb-2 flex items-center gap-2">
+            <span className="text-blue-400">🚀</span>
             Projects
           </h2>
         </div>
@@ -97,7 +97,7 @@ export function MainContent() {
               </div>
             </CardHeader>
             <CardContent>
-              <p className="text-muted-foreground mb-4">
+              <p className="text-slate-300 mb-4">
                 [Brief description of your project, what it does, and what technologies were used. 
                 Highlight key features and impact.]
               </p>
@@ -128,7 +128,7 @@ export function MainContent() {
               </div>
             </CardHeader>
             <CardContent>
-              <p className="text-muted-foreground mb-4">
+              <p className="text-slate-300 mb-4">
                 [Brief description of your second project. Focus on unique aspects and results achieved.]
               </p>
               <div className="flex gap-2">
@@ -158,7 +158,7 @@ export function MainContent() {
               </div>
             </CardHeader>
             <CardContent>
-              <p className="text-muted-foreground mb-4">
+              <p className="text-slate-300 mb-4">
                 [Description of data visualization or analysis project. Mention insights discovered or impact made.]
               </p>
               <div className="flex gap-2">
@@ -188,7 +188,7 @@ export function MainContent() {
               </div>
             </CardHeader>
             <CardContent>
-              <p className="text-muted-foreground mb-4">
+              <p className="text-slate-300 mb-4">
                 [Description of an open source contribution or API project. Highlight adoption or community impact.]
               </p>
               <div className="flex gap-2">
@@ -211,8 +211,8 @@ export function MainContent() {
       {/* Publications Section */}
       <section id="publications" className="mb-12">
         <div className="mb-8">
-          <h2 className="text-3xl font-bold text-foreground mb-2 flex items-center gap-2">
-            <span className="text-primary">📚</span>
+          <h2 className="text-3xl font-bold text-slate-100 mb-2 flex items-center gap-2">
+            <span className="text-blue-400">📚</span>
             Publications and Preprints
           </h2>
         </div>
@@ -229,7 +229,7 @@ export function MainContent() {
               </div>
             </CardHeader>
             <CardContent>
-              <p className="text-muted-foreground mb-3">
+              <p className="text-slate-300 mb-3">
                 [Brief description of the paper and its contributions]
               </p>
               <div className="flex gap-2">
@@ -258,7 +258,7 @@ export function MainContent() {
               </div>
             </CardHeader>
             <CardContent>
-              <p className="text-muted-foreground mb-3">
+              <p className="text-slate-300 mb-3">
                 [Brief description of the paper and its contributions]
               </p>
               <div className="flex gap-2">
@@ -276,8 +276,8 @@ export function MainContent() {
       {/* Resources Section */}
       <section id="resources" className="mb-12">
         <div className="mb-8">
-          <h2 className="text-3xl font-bold text-foreground mb-2 flex items-center gap-2">
-            <span className="text-primary">🔗</span>
+          <h2 className="text-3xl font-bold text-slate-100 mb-2 flex items-center gap-2">
+            <span className="text-blue-400">🔗</span>
             Helpful Resources
           </h2>
         </div>
@@ -290,12 +290,12 @@ export function MainContent() {
             <CardContent>
               <ul className="space-y-2">
                 <li>
-                  <a href="#" className="text-primary hover:underline">
+                  <a href="#" className="text-blue-400 hover:underline">
                     [Resource Link 1]
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-primary hover:underline">
+                  <a href="#" className="text-blue-400 hover:underline">
                     [Resource Link 2]
                   </a>
                 </li>
@@ -310,12 +310,12 @@ export function MainContent() {
             <CardContent>
               <ul className="space-y-2">
                 <li>
-                  <a href="#" className="text-primary hover:underline">
+                  <a href="#" className="text-blue-400 hover:underline">
                     [Resource Link 3]
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-primary hover:underline">
+                  <a href="#" className="text-blue-400 hover:underline">
                     [Resource Link 4]
                   </a>
                 </li>
@@ -328,8 +328,8 @@ export function MainContent() {
       {/* Experience Section */}
       <section id="experience">
         <div className="mb-8">
-          <h2 className="text-3xl font-bold text-foreground mb-2 flex items-center gap-2">
-            <span className="text-primary">💼</span>
+          <h2 className="text-3xl font-bold text-slate-100 mb-2 flex items-center gap-2">
+            <span className="text-blue-400">💼</span>
             Past Experience
           </h2>
         </div>
@@ -340,13 +340,13 @@ export function MainContent() {
               <CardTitle className="text-lg">
                 [Position Title] at [Company Name]
               </CardTitle>
-              <p className="text-muted-foreground">[Duration, e.g., 2020-2023]</p>
+              <p className="text-slate-300">[Duration, e.g., 2020-2023]</p>
             </CardHeader>
             <CardContent>
-              <p className="text-foreground mb-3">
+              <p className="text-slate-100 mb-3">
                 [Brief description of role and responsibilities]
               </p>
-              <ul className="space-y-1 text-muted-foreground">
+              <ul className="space-y-1 text-slate-300">
                 <li>• [Key responsibility or achievement 1]</li>
                 <li>• [Key responsibility or achievement 2]</li>
                 <li>• [Key responsibility or achievement 3]</li>
@@ -362,10 +362,10 @@ export function MainContent() {
               <p className="text-muted-foreground">[Duration, e.g., 2018-2020]</p>
             </CardHeader>
             <CardContent>
-              <p className="text-foreground mb-3">
+              <p className="text-slate-100 mb-3">
                 [Brief description of role and responsibilities]
               </p>
-              <ul className="space-y-1 text-muted-foreground">
+              <ul className="space-y-1 text-slate-300">
                 <li>• [Key responsibility or achievement 1]</li>
                 <li>• [Key responsibility or achievement 2]</li>
                 <li>• [Key responsibility or achievement 3]</li>
