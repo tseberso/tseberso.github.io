@@ -1,4 +1,4 @@
-import { Mail, MapPin, Github, Linkedin, GraduationCap } from "lucide-react";
+import { Mail, MapPin, Github, Linkedin, GraduationCap, } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 
@@ -7,11 +7,13 @@ export function Sidebar() {
     "Machine Learning",
     "Deep Learning", 
     "Reinforcement Learning",
+    "Physics",
     "Data Science",
     "Quantitative Research",
     "Statistics",
     "Simulations",
-    "Python"
+    "Strategy Development",
+    "Proudct Development"
   ];
 
   const programmingSkills = [
@@ -20,7 +22,8 @@ export function Sidebar() {
     "Scikit-learn",
     "Pandas/NumPy",
     "SQL",
-    "Git/GitHub",
+    "Git",
+    "Jupyter",
     "and more..."
   ];
 
@@ -57,13 +60,19 @@ export function Sidebar() {
       {/* Links */}
       <div className="space-y-2 mb-6">
         <Button variant="ghost" className="w-full justify-start" asChild>
-          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/troy-seberson-ph-d" target="_blank" rel="noopener noreferrer">
             <Linkedin className="w-4 h-4 mr-2" />
             LinkedIn
           </a>
         </Button>
         <Button variant="ghost" className="w-full justify-start" asChild>
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+          <a href="https://scholar.google.com/citations?user=KTt02z0AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
+            <GraduationCap className="w-4 h-4 mr-2" />
+            Google Scholar
+          </a>
+        </Button>
+        <Button variant="ghost" className="w-full justify-start" asChild>
+          <a href="https://github.com/tseberso" target="_blank" rel="noopener noreferrer">
             <Github className="w-4 h-4 mr-2" />
             Projects
           </a>
