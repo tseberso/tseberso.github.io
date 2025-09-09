@@ -6,18 +6,18 @@ export function Sidebar() {
   const keywords = [
     "Machine Learning",
     "Deep Learning", 
+    "Reinforcement Learning",
     "Data Science",
+    "Quantitative Research",
     "Statistics",
-    "Python",
-    "React",
-    "TypeScript"
+    "Simulations",
+    "Python"
   ];
 
   const programmingSkills = [
     "Python",
-    "JavaScript/TypeScript",
-    "React/Next.js",
-    "PyTorch/TensorFlow",
+    "TensorFlow/Keras",
+    "Scikit-learn",
     "Pandas/NumPy",
     "SQL",
     "Git/GitHub",
