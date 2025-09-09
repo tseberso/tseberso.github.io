@@ -91,7 +91,7 @@ export function MainContent() {
             </CardHeader>
             <CardContent>
               <p className="text-slate-300 mb-4">
-                [Brief description of your project, what it does, and what technologies were used. 
+                [Brief description of project, what it does, and what technologies were used. 
                 Highlight key features and impact.]
               </p>
               <div className="flex gap-2">
@@ -122,7 +122,7 @@ export function MainContent() {
             </CardHeader>
             <CardContent>
               <p className="text-slate-300 mb-4">
-                [Brief description of your second project. Focus on unique aspects and results achieved.]
+                [Brief description of  second project. Focus on unique aspects and results achieved.]
               </p>
               <div className="flex gap-2">
                 <Button size="sm" variant="outline" asChild>
