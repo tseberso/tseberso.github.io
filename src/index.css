@@ -6,87 +6,89 @@
 
 @layer base {
   :root {
-    --background: 210 20% 98%;
-    --foreground: 215 25% 27%;
+    /* Sophisticated Dark Theme - Default */
+    --background: 222.2 84% 4.9%; /* Dark navy/charcoal (bg-slate-900) */
+    --foreground: 210 40% 98%; /* Light gray (text-slate-100) */
 
-    --card: 0 0% 100%;
-    --card-foreground: 215 25% 27%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 215 25% 27%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
 
-    --primary: 205 85% 52%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 199 89% 48%; /* Blue accent (text-blue-400) */
+    --primary-foreground: 210 40% 98%;
 
-    --secondary: 210 30% 92%;
-    --secondary-foreground: 215 25% 27%;
+    --secondary: 217.2 32.6% 17.5%; /* Slightly lighter dark */
+    --secondary-foreground: 210 40% 98%;
 
-    --muted: 210 25% 95%;
-    --muted-foreground: 215 15% 58%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 200 50% 90%;
-    --accent-foreground: 215 25% 27%;
+    --accent: 199 89% 48%; /* Blue accent */
+    --accent-foreground: 210 40% 98%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 210 40% 98%;
 
-    --border: 210 20% 88%;
-    --input: 210 20% 88%;
-    --ring: 205 85% 52%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 199 89% 48%;
 
-    --sidebar-bg: 210 30% 92%;
-    --sidebar-border: 210 20% 85%;
+    --sidebar-bg: 215 27.9% 16.9%; /* Slightly lighter dark (bg-slate-800) */
+    --sidebar-border: 217.2 32.6% 17.5%;
     
     --radius: 0.5rem;
 
-    --sidebar-background: 0 0% 98%;
+    --sidebar-background: 215 27.9% 16.9%;
 
-    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-foreground: 210 40% 98%;
 
-    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary: 199 89% 48%;
 
-    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-primary-foreground: 210 40% 98%;
 
-    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent: 217.2 32.6% 17.5%;
 
-    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-accent-foreground: 210 40% 98%;
 
-    --sidebar-border: 220 13% 91%;
+    --sidebar-border: 217.2 32.6% 17.5%;
 
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-ring: 199 89% 48%;
   }
 
   .dark {
-    --background: 215 30% 8%;
-    --foreground: 210 20% 92%;
+    /* Same sophisticated dark theme for consistency */
+    --background: 222.2 84% 4.9%; /* Dark navy/charcoal (bg-slate-900) */
+    --foreground: 210 40% 98%; /* Light gray (text-slate-100) */
 
-    --card: 215 25% 10%;
-    --card-foreground: 210 20% 92%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
 
-    --popover: 215 25% 10%;
-    --popover-foreground: 210 20% 92%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
 
-    --primary: 205 85% 65%;
-    --primary-foreground: 215 30% 8%;
+    --primary: 199 89% 48%; /* Blue accent (text-blue-400) */
+    --primary-foreground: 210 40% 98%;
 
-    --secondary: 215 20% 15%;
-    --secondary-foreground: 210 20% 92%;
+    --secondary: 217.2 32.6% 17.5%; /* Slightly lighter dark */
+    --secondary-foreground: 210 40% 98%;
 
-    --muted: 215 20% 15%;
-    --muted-foreground: 215 10% 65%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 200 30% 20%;
-    --accent-foreground: 210 20% 92%;
+    --accent: 199 89% 48%; /* Blue accent */
+    --accent-foreground: 210 40% 98%;
 
     --destructive: 0 62.8% 50%;
-    --destructive-foreground: 210 20% 92%;
+    --destructive-foreground: 210 40% 98%;
 
-    --border: 215 20% 18%;
-    --input: 215 20% 18%;
-    --ring: 205 85% 65%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 199 89% 48%;
     
-    --sidebar-bg: 215 20% 15%;
-    --sidebar-border: 215 20% 18%;
+    --sidebar-bg: 215 27.9% 16.9%; /* Slightly lighter dark (bg-slate-800) */
+    --sidebar-border: 217.2 32.6% 17.5%;
   }
 }
 
@@ -97,5 +99,10 @@
 
   body {
     @apply bg-background text-foreground;
+  }
+  
+  /* Apply dark theme by default */
+  html {
+    @apply dark;
   }
 }
