@@ -13,7 +13,7 @@ export function Sidebar() {
     "Statistics",
     "Simulations",
     "Strategy Development",
-    "Proudct Development"
+    "Product Development"
   ];
 
   const programmingSkills = [
@@ -31,28 +31,25 @@ export function Sidebar() {
     <aside className="w-80 bg-sidebar border-r border-sidebar-border p-6 flex flex-col">
       {/* Profile Photo */}
       <div className="flex justify-center mb-6">
-        <div className="w-48 h-48 rounded-lg bg-muted flex items-center justify-center text-muted-foreground">
-          <div className="text-center">
-            <div className="w-16 h-16 rounded-full bg-primary/10 mx-auto mb-2 flex items-center justify-center">
-              <span className="text-2xl font-bold text-primary">YN</span>
-            </div>
-            <p className="text-sm">Add your photo</p>
-          </div>
-        </div>
+        <img 
+          src="/profile-photo.jpg" 
+          alt="Troy Seberson"
+          className="w-48 h-48 rounded-lg object-cover"
+        />
       </div>
 
       {/* Name and Title */}
       <div className="text-center mb-6">
-        <h1 className="text-2xl font-bold text-foreground mb-1">Your Name</h1>
+        <h1 className="text-2xl font-bold text-foreground mb-1">Troy Seberson</h1>
         <p className="text-muted-foreground mb-1">(Ph.D.)</p>
         <div className="flex items-center justify-center gap-1 text-muted-foreground mb-2">
           <MapPin className="w-4 h-4" />
-          <span>Your City</span>
+          <span>Plymouth, MN</span>
         </div>
         <div className="flex items-center justify-center gap-1 text-primary">
           <Mail className="w-4 h-4" />
-          <a href="mailto:your.email@gmail.com" className="hover:underline">
-            your.email@gmail.com
+          <a href="mailto:tseberso@gmail.com" className="hover:underline">
+            tseberso@gmail.com
           </a>
         </div>
       </div>
