@@ -19,7 +19,7 @@ export function MainContent() {
           <div>
             <h3 className="text-xl font-semibold text-slate-100 mb-4">Summary</h3>
             <p className="text-slate-100 leading-relaxed">
-              Ph.D in Theoretical/Computationl Physics with over 10 years of experience in programming, modeling, and research.
+              Ph.D in Theoretical/Computational Physics with over 10 years of experience in programming, modeling, and research.
               Five years of hands-on industry experience in finance, fintech, and cryptocurrency developing and shipping quantitative products and trading strategies backed by extensive data science and engineering. 
               In my current role I am focused on building advanced, custom machine learning models for prediction and trading. 
             </p>
@@ -68,7 +68,7 @@ export function MainContent() {
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="mb-12">
+      {/* <section id="projects" className="mb-12">
         <div className="mb-8">
           <h2 className="text-3xl font-bold text-slate-100 mb-2 flex items-center gap-2">
             <span className="text-blue-400">🚀</span>
@@ -199,7 +199,7 @@ export function MainContent() {
             </CardContent>
           </Card>
         </div>
-      </section>
+      </section> */}
 
       {/* Publications Section */}
       <section id="publications" className="mb-12">
@@ -233,11 +233,6 @@ export function MainContent() {
                     See Publication and PDF
                   </a>
                 </Button>
-                {/* <Button size="sm" variant="outline" asChild>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    Code
-                  </a>
-                </Button> */}
               </div>
             </CardContent>
           </Card>
@@ -271,11 +266,98 @@ export function MainContent() {
               </div>
             </CardContent>
           </Card>
+
+          <Card>
+            <CardHeader>
+              <CardTitle className="text-lg">
+              Distribution of laser shot-noise energy delivered to a levitated nanoparticle
+              </CardTitle>
+              <div className="flex flex-wrap gap-2">
+                <Badge variant="secondary">2020</Badge>
+                <Badge variant="outline">Physical Review A</Badge>
+              </div>
+            </CardHeader>
+            <CardContent>
+              <p className="text-slate-300 mb-3">
+                An inescapable source of noise and decoherence for an optically levitated particle is the shot-noise from the laser that constantly penetrates it.
+                This paper quantifies the amount of energy being distributed to the particle from a laser for point-like particles as well as larger radii particles where Mie Scattering is relevant. 
+              </p>
+              <div className="flex gap-2">
+              <Button size="sm" variant="outline" asChild>
+                  <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.102.033505" target="_blank" rel="noopener noreferrer">
+                    See Publication
+                  </a>
+                </Button>
+                <Button size="sm" variant="outline" asChild>
+                  <a href="https://arxiv.org/pdf/1909.06469" target="_blank" rel="noopener noreferrer">
+                    See PDF
+                  </a>
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card>
+            <CardHeader>
+              <CardTitle className="text-lg">
+              Simulation of sympathetic cooling an optically levitated magnetic nanoparticle via coupling to a cold atomic gas
+              </CardTitle>
+              <div className="flex flex-wrap gap-2">
+                <Badge variant="secondary">2020</Badge>
+                <Badge variant="outline">JOSA B</Badge>
+              </div>
+            </CardHeader>
+            <CardContent>
+              <p className="text-slate-300 mb-3">
+                This paper outlines a neat strategy for cooling the motion of a spherical particle down to the quantum regime. 
+                It involves optically trapping a magnetic particle, and then linearly coupling it with an already cooled gas of magnetically polarized and trapped atoms. 
+                When the gas and particle's trapping frequencies are tuned to resononance, the particle effectively cools.
+              </p>
+              <div className="flex gap-2">
+              <Button size="sm" variant="outline" asChild>
+                  <a href="https://opg.optica.org/josab/abstract.cfm?uri=josab-37-12-3714" target="_blank" rel="noopener noreferrer">
+                    See Publication
+                  </a>
+                </Button>
+                <Button size="sm" variant="outline" asChild>
+                  <a href="https://arxiv.org/pdf/1910.05371" target="_blank" rel="noopener noreferrer">
+                    See PDF
+                  </a>
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card>
+            <CardHeader>
+              <CardTitle className="text-lg">
+              Stability and dynamics of optically levitated dielectric disks in a Gaussian standing wave beyond the harmonic approximation
+              </CardTitle>
+              <div className="flex flex-wrap gap-2">
+                <Badge variant="secondary">2020</Badge>
+                <Badge variant="outline">Physical Review Research</Badge>
+              </div>
+            </CardHeader>
+            <CardContent>
+              <p className="text-slate-300 mb-3">
+                As part of a Sandia National Lab project, we investigated the dynamics of large optically trapped disks (2 microns, 200 nm). 
+                Due to its larger size, the laser's electric field varies across the disk, introducing interesting rotational-translational couplings and therefore rich dynamics.
+              </p>
+              <div className="flex gap-2">
+              <Button size="sm" variant="outline" asChild>
+                  <a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.033437" target="_blank" rel="noopener noreferrer">
+                    See Publication and PDF
+                  </a>
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+
         </div>
       </section>
 
       {/* Resources Section */}
-      <section id="resources" className="mb-12">
+      {/* <section id="resources" className="mb-12">
         <div className="mb-8">
           <h2 className="text-3xl font-bold text-slate-100 mb-2 flex items-center gap-2">
             <span className="text-blue-400">🔗</span>
@@ -324,7 +406,7 @@ export function MainContent() {
             </CardContent>
           </Card>
         </div>
-      </section>
+      </section> */}
 
       {/* Experience Section */}
       <section id="experience">
