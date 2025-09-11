@@ -20,8 +20,8 @@ export function MainContent() {
             <h3 className="text-xl font-semibold text-slate-100 mb-4">Summary</h3>
             <p className="text-slate-100 leading-relaxed">
               Ph.D in Theoretical/Computationl Physics with over 10 years of experience in programming, modeling, and research.
-              Five years of hands-on industry experience in finance, fintech, and cryptocurrency developing and shipping quantiative products and trading strategies backed by extensive data science and engineering. 
-              In my current role I am focused on building advanced, novel machine learning models for prediction and trading. 
+              Five years of hands-on industry experience in finance, fintech, and cryptocurrency developing and shipping quantitative products and trading strategies backed by extensive data science and engineering. 
+              In my current role I am focused on building advanced, custom machine learning models for prediction and trading. 
             </p>
           </div>
 
@@ -214,28 +214,30 @@ export function MainContent() {
           <Card>
             <CardHeader>
               <CardTitle className="text-lg">
-                [Paper Title 1]
+              Five-Dimensional Cooling and Nonlinear Dynamics of an Optically Levitated Nanodumbbell
               </CardTitle>
               <div className="flex flex-wrap gap-2">
-                <Badge variant="secondary">2024</Badge>
-                <Badge variant="outline">Conference/Journal Name</Badge>
+                <Badge variant="secondary">2020</Badge>
+                <Badge variant="outline">Physical Review Research</Badge>
               </div>
             </CardHeader>
             <CardContent>
               <p className="text-slate-300 mb-3">
-                [Brief description of the paper and its contributions]
+                Experimental demonstration of cooling the 3 translational and 2 rotational degrees of freedom of an optically levitated nanodumbbell.
+                Evidence of the rotational coupling and precession theorized by our work in 'Parametric Feedback Cooling of Rigid Body Nanodumbbells in Levitated Optomechanics' (see below).
+
               </p>
               <div className="flex gap-2">
                 <Button size="sm" variant="outline" asChild>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    PDF
+                  <a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.043054" target="_blank" rel="noopener noreferrer">
+                    See Publication and PDF
                   </a>
                 </Button>
-                <Button size="sm" variant="outline" asChild>
+                {/* <Button size="sm" variant="outline" asChild>
                   <a href="#" target="_blank" rel="noopener noreferrer">
                     Code
                   </a>
-                </Button>
+                </Button> */}
               </div>
             </CardContent>
           </Card>
@@ -243,21 +245,27 @@ export function MainContent() {
           <Card>
             <CardHeader>
               <CardTitle className="text-lg">
-                [Paper Title 2]
+              Parametric Feedback Cooling of Rigid Body Nanodumbbells in Levitated Optomechanics
               </CardTitle>
               <div className="flex flex-wrap gap-2">
-                <Badge variant="secondary">2023</Badge>
-                <Badge variant="outline">Conference/Journal Name</Badge>
+                <Badge variant="secondary">2019</Badge>
+                <Badge variant="outline">Physical Review A</Badge>
               </div>
             </CardHeader>
             <CardContent>
               <p className="text-slate-300 mb-3">
-                [Brief description of the paper and its contributions]
+                For non-spherical particles such as nanodumbbells, one must consider the rotations as well as translations in the dynamics of a levitated particle. 
+                This paper shows that, for nanodumbbells, attempting to cool the rotational degrees of freedom using parametric feedback cooling is only partially effective due to the third rotational degree of freedom being absent from the potential energy.
               </p>
               <div className="flex gap-2">
+              <Button size="sm" variant="outline" asChild>
+                  <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.99.013821" target="_blank" rel="noopener noreferrer">
+                    See Publication
+                  </a>
+                </Button>
                 <Button size="sm" variant="outline" asChild>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    PDF
+                  <a href="https://arxiv.org/abs/1810.01797" target="_blank" rel="noopener noreferrer">
+                    See PDF
                   </a>
                 </Button>
               </div>
