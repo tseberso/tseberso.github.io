@@ -40,7 +40,7 @@ export function MainContent() {
                 <ul className="space-y-2 text-slate-100">
                   <li className="flex items-start gap-2">
                     <span className="text-blue-400 mt-1">•</span>
-                    <span>Designed and validated an automated market-making strategy that achieved a 3.5 Sharpe ratio in a four-month, walk-forward out-of-sample test on high-frequency data.</span>
+                    <span>Designed and validated an automated market-making strategy that achieved a Sharpe ratio of 4.97 in a four-month, walk-forward out-of-sample test on high-frequency data.</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-blue-400 mt-1">•</span>
