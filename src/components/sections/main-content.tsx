@@ -40,7 +40,7 @@ export function MainContent() {
                 <ul className="space-y-2 text-slate-100">
                   <li className="flex items-start gap-2">
                     <span className="text-blue-400 mt-1">•</span>
-                    <span>Designed and validated an automated market-making strategy that achieved a 3.5 Sharpe ratio in a four-month, walk-forward out-of-sample test on high-frequency data.</span>
+                    <span>Designed and validated an automated market-making strategy that achieved a Sharpe ratio of 4.97 in a four-month, walk-forward out-of-sample test on high-frequency data.</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-blue-400 mt-1">•</span>
@@ -222,12 +222,20 @@ export function MainContent() {
               </div>
             </CardHeader>
             <CardContent>
-              <p className="text-slate-300 mb-3">
-                Experimental demonstration of cooling the 3 translational and 2 rotational degrees of freedom of an optically levitated nanodumbbell.
-                Evidence of the rotational coupling and precession theorized by our work in 'Parametric Feedback Cooling of Rigid Body Nanodumbbells in Levitated Optomechanics' (see below).
-
-              </p>
-              <div className="flex gap-2">
+              <div className="space-y-2">
+                <h4 className="font-semibold text-slate-100 mb-2">Key Contributions:</h4>
+                <ul className="space-y-2 text-slate-300">
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-400 mt-1">•</span>
+                    <span>Experimental demonstration of cooling the 3 translational and 2 rotational degrees of freedom of an optically levitated nanodumbbell.</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-400 mt-1">•</span>
+                    <span>Evidence of the rotational coupling and precession theorized by our work in 'Parametric Feedback Cooling of Rigid Body Nanodumbbells in Levitated Optomechanics' (see below).</span>
+                  </li>
+                </ul>
+              </div>
+              <div className="flex gap-2 mt-4">
                 <Button size="sm" variant="outline" asChild>
                   <a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.043054" target="_blank" rel="noopener noreferrer">
                     See Publication and PDF
@@ -248,11 +256,20 @@ export function MainContent() {
               </div>
             </CardHeader>
             <CardContent>
-              <p className="text-slate-300 mb-3">
-                For non-spherical particles such as nanodumbbells, one must consider the rotations as well as translations in the dynamics of a levitated particle. 
-                This paper shows that, for nanodumbbells, attempting to cool the rotational degrees of freedom using parametric feedback cooling is only partially effective due to the third rotational degree of freedom being absent from the potential energy.
-              </p>
-              <div className="flex gap-2">
+              <div className="space-y-2">
+                <h4 className="font-semibold text-slate-100 mb-2">Key Findings:</h4>
+                <ul className="space-y-2 text-slate-300">
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-400 mt-1">•</span>
+                    <span>For non-spherical particles such as nanodumbbells, one must consider the rotations as well as translations in the dynamics of a levitated particle.</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-400 mt-1">•</span>
+                    <span>This paper shows that, for nanodumbbells, attempting to cool the rotational degrees of freedom using parametric feedback cooling is only partially effective due to the third rotational degree of freedom being absent from the potential energy.</span>
+                  </li>
+                </ul>
+              </div>
+              <div className="flex gap-2 mt-4">
               <Button size="sm" variant="outline" asChild>
                   <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.99.013821" target="_blank" rel="noopener noreferrer">
                     See Publication
@@ -278,11 +295,20 @@ export function MainContent() {
               </div>
             </CardHeader>
             <CardContent>
-              <p className="text-slate-300 mb-3">
-                An inescapable source of noise and decoherence for an optically levitated particle is the shot-noise from the laser that constantly penetrates it.
-                This paper quantifies the amount of energy being distributed to the particle from a laser for point-like particles as well as larger radii particles where Mie Scattering is relevant. 
-              </p>
-              <div className="flex gap-2">
+              <div className="space-y-2">
+                <h4 className="font-semibold text-slate-100 mb-2">Research Focus:</h4>
+                <ul className="space-y-2 text-slate-300">
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-400 mt-1">•</span>
+                    <span>An inescapable source of noise and decoherence for an optically levitated particle is the shot-noise from the laser that constantly penetrates it.</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-400 mt-1">•</span>
+                    <span>This paper quantifies the amount of energy being distributed to the particle from a laser for point-like particles as well as larger radii particles where Mie Scattering is relevant.</span>
+                  </li>
+                </ul>
+              </div>
+              <div className="flex gap-2 mt-4">
               <Button size="sm" variant="outline" asChild>
                   <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.102.033505" target="_blank" rel="noopener noreferrer">
                     See Publication
@@ -308,12 +334,24 @@ export function MainContent() {
               </div>
             </CardHeader>
             <CardContent>
-              <p className="text-slate-300 mb-3">
-                This paper outlines a neat strategy for cooling the motion of a spherical particle down to the quantum regime. 
-                It involves optically trapping a magnetic particle, and then linearly coupling it with an already cooled gas of magnetically polarized and trapped atoms. 
-                When the gas and particle's trapping frequencies are tuned to resononance, the particle effectively cools.
-              </p>
-              <div className="flex gap-2">
+              <div className="space-y-2">
+                <h4 className="font-semibold text-slate-100 mb-2">Innovation:</h4>
+                <ul className="space-y-2 text-slate-300">
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-400 mt-1">•</span>
+                    <span>This paper outlines a neat strategy for cooling the motion of a spherical particle down to the quantum regime.</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-400 mt-1">•</span>
+                    <span>It involves optically trapping a magnetic particle, and then linearly coupling it with an already cooled gas of magnetically polarized and trapped atoms.</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-400 mt-1">•</span>
+                    <span>When the gas and particle's trapping frequencies are tuned to resononance, the particle effectively cools.</span>
+                  </li>
+                </ul>
+              </div>
+              <div className="flex gap-2 mt-4">
               <Button size="sm" variant="outline" asChild>
                   <a href="https://opg.optica.org/josab/abstract.cfm?uri=josab-37-12-3714" target="_blank" rel="noopener noreferrer">
                     See Publication
@@ -339,11 +377,20 @@ export function MainContent() {
               </div>
             </CardHeader>
             <CardContent>
-              <p className="text-slate-300 mb-3">
-                As part of a Sandia National Lab project, we investigated the dynamics of large optically trapped disks (2 microns, 200 nm). 
-                Due to its larger size, the laser's electric field varies across the disk, introducing interesting rotational-translational couplings and therefore rich dynamics.
-              </p>
-              <div className="flex gap-2">
+              <div className="space-y-2">
+                <h4 className="font-semibold text-slate-100 mb-2">Research Scope:</h4>
+                <ul className="space-y-2 text-slate-300">
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-400 mt-1">•</span>
+                    <span>As part of a Sandia National Lab project, we investigated the dynamics of large optically trapped disks (2 microns, 200 nm).</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-400 mt-1">•</span>
+                    <span>Due to its larger size, the laser's electric field varies across the disk, introducing interesting rotational-translational couplings and therefore rich dynamics.</span>
+                  </li>
+                </ul>
+              </div>
+              <div className="flex gap-2 mt-4">
               <Button size="sm" variant="outline" asChild>
                   <a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.033437" target="_blank" rel="noopener noreferrer">
                     See Publication and PDF
