@@ -39,15 +39,15 @@ export function MainContent() {
                 <h4 className="font-semibold text-slate-100 mb-2">Key Achievements:</h4>
                 <ul className="space-y-2 text-slate-100">
                   <li className="flex items-start gap-2">
-                    <span className="text-blue-400 mt-1">•</span>
+                    <span className="text-blue-400 text-lg leading-snug">•</span>
                     <span>Designed and validated an automated market-making strategy that achieved a Sharpe ratio of 4.97 in a four-month, walk-forward out-of-sample test on high-frequency data.</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-blue-400 mt-1">•</span>
+                    <span className="text-blue-400 text-lg leading-snug">•</span>
                     <span>Researched and engineered custom-built sequential-learning models—transformers, LSTMs, and reinforcement-learning agents—to optimize inventory, quoting, and hedging decisions.</span>
                   </li>
                   <li className="flex items-start gap-2">
-                  <span className="text-blue-400 mt-1">•</span>
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
                     <span> Authored high-performance Python libraries that ingest, cleanse, and store various data fields, cutting data-processing latency by 80% and enabling daily model retraining. </span>
                   </li>
                 </ul>
@@ -57,7 +57,7 @@ export function MainContent() {
                 <h4 className="font-semibold text-slate-100 mb-2">Technical Leadership:</h4>
                 <ul className="space-y-2 text-slate-100">
                   <li className="flex items-start gap-2">
-                    <span className="text-blue-400 mt-1">•</span>
+                    <span className="text-blue-400 text-lg leading-snug">•</span>
                     <span>Directed and mentored a two-engineer team that built the cloud-native execution stack on AWS (Python | Django REST | micro-services), reviewed PRs, and set code-quality and risk-control standards.</span>
                   </li>
                 </ul>
@@ -226,11 +226,11 @@ export function MainContent() {
                 <h4 className="font-semibold text-slate-100 mb-2">Key Contributions:</h4>
                 <ul className="space-y-2 text-slate-300">
                   <li className="flex items-start gap-2">
-                    <span className="text-blue-400 mt-1">•</span>
+                    <span className="text-blue-400 text-lg leading-snug">•</span>
                     <span>Experimental demonstration of cooling the 3 translational and 2 rotational degrees of freedom of an optically levitated nanodumbbell.</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-blue-400 mt-1">•</span>
+                    <span className="text-blue-400 text-lg leading-snug">•</span>
                     <span>Evidence of the rotational coupling and precession theorized by our work in 'Parametric Feedback Cooling of Rigid Body Nanodumbbells in Levitated Optomechanics' (see below).</span>
                   </li>
                 </ul>
@@ -260,11 +260,11 @@ export function MainContent() {
                 <h4 className="font-semibold text-slate-100 mb-2">Key Findings:</h4>
                 <ul className="space-y-2 text-slate-300">
                   <li className="flex items-start gap-2">
-                    <span className="text-blue-400 mt-1">•</span>
+                    <span className="text-blue-400 text-lg leading-snug">•</span>
                     <span>For non-spherical particles such as nanodumbbells, one must consider the rotations as well as translations in the dynamics of a levitated particle.</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-blue-400 mt-1">•</span>
+                    <span className="text-blue-400 text-lg leading-snug">•</span>
                     <span>This paper shows that, for nanodumbbells, attempting to cool the rotational degrees of freedom using parametric feedback cooling is only partially effective due to the third rotational degree of freedom being absent from the potential energy.</span>
                   </li>
                 </ul>
@@ -299,11 +299,11 @@ export function MainContent() {
                 <h4 className="font-semibold text-slate-100 mb-2">Research Focus:</h4>
                 <ul className="space-y-2 text-slate-300">
                   <li className="flex items-start gap-2">
-                    <span className="text-blue-400 mt-1">•</span>
+                    <span className="text-blue-400 text-lg leading-snug">•</span>
                     <span>An inescapable source of noise and decoherence for an optically levitated particle is the shot-noise from the laser that constantly penetrates it.</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-blue-400 mt-1">•</span>
+                    <span className="text-blue-400 text-lg leading-snug">•</span>
                     <span>This paper quantifies the amount of energy being distributed to the particle from a laser for point-like particles as well as larger radii particles where Mie Scattering is relevant.</span>
                   </li>
                 </ul>
@@ -338,15 +338,15 @@ export function MainContent() {
                 <h4 className="font-semibold text-slate-100 mb-2">Innovation:</h4>
                 <ul className="space-y-2 text-slate-300">
                   <li className="flex items-start gap-2">
-                    <span className="text-blue-400 mt-1">•</span>
+                    <span className="text-blue-400 text-lg leading-snug">•</span>
                     <span>This paper outlines a neat strategy for cooling the motion of a spherical particle down to the quantum regime.</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-blue-400 mt-1">•</span>
+                    <span className="text-blue-400 text-lg leading-snug">•</span>
                     <span>It involves optically trapping a magnetic particle, and then linearly coupling it with an already cooled gas of magnetically polarized and trapped atoms.</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-blue-400 mt-1">•</span>
+                    <span className="text-blue-400 text-lg leading-snug">•</span>
                     <span>When the gas and particle's trapping frequencies are tuned to resononance, the particle effectively cools.</span>
                   </li>
                 </ul>
@@ -381,11 +381,11 @@ export function MainContent() {
                 <h4 className="font-semibold text-slate-100 mb-2">Research Scope:</h4>
                 <ul className="space-y-2 text-slate-300">
                   <li className="flex items-start gap-2">
-                    <span className="text-blue-400 mt-1">•</span>
+                    <span className="text-blue-400 text-lg leading-snug">•</span>
                     <span>As part of a Sandia National Lab project, we investigated the dynamics of large optically trapped disks (2 microns, 200 nm).</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-blue-400 mt-1">•</span>
+                    <span className="text-blue-400 text-lg leading-snug">•</span>
                     <span>Due to its larger size, the laser's electric field varies across the disk, introducing interesting rotational-translational couplings and therefore rich dynamics.</span>
                   </li>
                 </ul>
@@ -478,7 +478,7 @@ export function MainContent() {
               </p>
               <ul className="space-y-2 text-slate-300">
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-400 mt-1">•</span>
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
                   <span>
                     Developed quantitative crypto-data products and models: implied-rate term
                     structures, volatility surfaces, margin/risk models, derivative pricing,
@@ -486,21 +486,20 @@ export function MainContent() {
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-400 mt-1">•</span>
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
                   <span>
-                    Co-invented a (patent pending) algorithm to aggregate fragmented
-                    funding/interest rates, allowing fair-value pricing and benchmarking.
+                    Co-invented a (patent pending) algorithm to aggregate fragmented funding/interest rates, allowing fair-value pricing and benchmarking.
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-400 mt-1">•</span>
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
                   <span>
                     Developed novel risk models for decentralized finance (DeFi) positions,
                     for which there is no traditional finance framework to lean on.
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-400 mt-1">•</span>
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
                   <span>
                     Owned the full product lifecycle of all projects involved with, from
                     ideation to production.
@@ -523,7 +522,7 @@ export function MainContent() {
               </p>
               <ul className="space-y-2 text-slate-300">
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-400 mt-1">•</span>
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
                   <span>
                     Built a microstructure-noise-robust volatility estimator that converts
                     high-frequency data of 10-minutes length into reliable
@@ -531,11 +530,11 @@ export function MainContent() {
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-400 mt-1">•</span>
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
                   <span>Created pipelines for ingesting, cleaning, and storing data.</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-400 mt-1">•</span>
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
                   <span>
                     Developed an interactive visualization interface for insight generation
                     using Bokeh.
@@ -603,20 +602,20 @@ export function MainContent() {
               </p>
               <ul className="space-y-2 text-slate-300">
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-400 mt-1">•</span>
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
                   <span>
                     Designed and produced high-frequency, low temperature electronics for
                     quantum computing experiments.
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-400 mt-1">•</span>
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
                   <span>
                     Modeled, fabricated, and tested nanometer-scale superconducting circuits.
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-400 mt-1">•</span>
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
                   <span>
                     Tested self-built superconducting circuits in dilution refrigerators and
                     He3 systems ranging from 10–100 mK.
