@@ -542,11 +542,33 @@ export function MainContent() {
               <p className="text-slate-100 mb-3">
                 Field of focus: Condensed Matter, Quantum Computing
               </p>
-              <ul className="list-disc list-outside space-y-1 text-slate-300">
+              {/* <ul className="list-disc list-outside space-y-1 text-slate-300">
                 <li> Designed and produced high-frequency, low temperature electronics for quantum computing experiments. </li>
                 <li> Modeled, fabricated, and tested nanometer-scale superconducting circuits</li>
                 <li> Tested self-built superconducting circuits in dilution refrigerators and He3 systems ranging from 10-100mK. </li>
+              </ul> */}
+              <ul className="space-y-2 text-slate-300">
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-1">•</span>
+                  <span>
+                    Built a microstructure-noise-robust volatility estimator that converts
+                    high-frequency data of 10-minutes length into reliable
+                    annualized-volatility forecasts—shrinking latency from 60 min to &lt; 10 min
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-1">•</span>
+                  <span>Created pipelines for ingesting, cleaning, and storing data.</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-1">•</span>
+                  <span>
+                    Developed an interactive visualization interface for insight generation
+                    using Bokeh.
+                  </span>
+                </li>
               </ul>
+
             </CardContent>
           </Card>
         </div>
