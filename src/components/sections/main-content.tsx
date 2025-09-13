@@ -558,28 +558,28 @@ export function MainContent() {
               </p>
               <ul className="space-y-2 text-slate-300">
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-400 mt-1">•</span>
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
                   <span>
                     Designed control and modeling strategies for cooling the motion of a
                     levitated nanoparticle to the quantum regime.
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-400 mt-1">•</span>
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
                   <span>
                     Developed original analytic and numerical models for stochastic, coupled
                     dynamical systems for predicting and controlling nanoscale motion.
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-400 mt-1">•</span>
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
                   <span>
                     Implemented high-performance Monte Carlo solvers in C/C++ to tackle
                     nonlinear, multivariate PDEs with stochasticity.
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-400 mt-1">•</span>
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
                   <span>
                     Weekly team collaborations with experimentalists for journal club,
                     sharing insights and results.
