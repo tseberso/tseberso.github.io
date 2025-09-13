@@ -474,13 +474,14 @@ export function MainContent() {
             </CardHeader>
             <CardContent>
               <p className="text-slate-100 mb-3">
-                Lukka is a B2B SaaS and data comapny in the cryptocurrency sector. I built quantitative 
-                crypto-data products and models: implied-rate term structures, volatility surfaces, margin/risk models, derivative pricing, on-chain market analytics, and more. 
+                Lukka is a B2B SaaS and data company in the cryptocurrency sector.  
               </p>
-              <ul className="space-y-1 text-slate-300">
-                <li>• Co-invented a (patent pending) algorithm to aggregate fragmented funding/interest rates, allowing fair-value pricing and benchmarking.</li>
-                <li>• Developed novel risk models for decentralized finance (DeFi) positions, for which there is no traditional finance framework to lean on. </li>
-                <li>• Owned the full product lifecycle, from ideation to production, of all projects. </li>
+              <ul className="list-disc list-inside space-y-1 text-slate-300">
+                <li> I built quantitative crypto-data products and models: implied-rate term structures, volatility surfaces, margin/risk models, derivative pricing, 
+                  on-chain market analytics, and more.</li>
+                <li> Co-invented a (patent pending) algorithm to aggregate fragmented funding/interest rates, allowing fair-value pricing and benchmarking.</li>
+                <li> Developed novel risk models for decentralized finance (DeFi) positions, for which there is no traditional finance framework to lean on. </li>
+                <li> Owned the full product lifecycle of all projects involved with, from ideation to production. </li>
               </ul>
             </CardContent>
           </Card>
@@ -496,11 +497,11 @@ export function MainContent() {
               <p className="text-slate-100 mb-3">
                 Proprietary trading. Primarily focused on short term volatility estimation and prediction under a volatility trader.
               </p>
-              <ul className="space-y-1 text-slate-300">
-                <li>• Built a microstructure-noise-robust volatility estimator that converts high-frequency data of 10-minutes length into reliable
+              <ul className="list-disc list-outside space-y-1 text-slate-300">
+                <li> Built a microstructure-noise-robust volatility estimator that converts high-frequency data of 10-minutes length into reliable
                 annualized-volatility forecasts—shrinking latency from 60 min to &lt; 10 min </li>
-                <li>• Created pipelines for ingesting, cleaning, and storing data. </li>
-                <li>• Developed an interactive visualization interface for insight generation using Bokeh. </li>
+                <li> Created pipelines for ingesting, cleaning, and storing data. </li>
+                <li> Developed an interactive visualization interface for insight generation using Bokeh. </li>
               </ul>
             </CardContent>
           </Card>
