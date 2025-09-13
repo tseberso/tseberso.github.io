@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge";
 
 export function MainContent() {
   return (
-    <main className="flex-1 p-8 max-w-4xl">
+    <main className="flex-1 p-4 md:p-8 max-w-4xl mx-auto w-full">
       {/* About Me Section */}
       <section id="about" className="mb-12">
         <div className="mb-8">

@@ -78,30 +78,6 @@ export function Sidebar() {
 
       <Separator className="mb-6" />
 
-      {/* Sections Navigation */}
-      <div className="mb-6">
-        <h3 className="font-semibold text-slate-100 mb-3">Sections</h3>
-        <div className="space-y-1">
-          <Button variant="ghost" size="sm" className="w-full justify-start text-blue-400" asChild>
-            <a href="#about">About Me</a>
-          </Button>
-          <Button variant="ghost" size="sm" className="w-full justify-start" asChild>
-            <a href="#projects">Projects</a>
-          </Button>
-          <Button variant="ghost" size="sm" className="w-full justify-start" asChild>
-            <a href="#publications">Publications</a>
-          </Button>
-          <Button variant="ghost" size="sm" className="w-full justify-start" asChild>
-            <a href="#resources">Resources</a>
-          </Button>
-          <Button variant="ghost" size="sm" className="w-full justify-start" asChild>
-            <a href="#experience">Experience</a>
-          </Button>
-        </div>
-      </div>
-
-      <Separator className="mb-6" />
-
       {/* Keywords */}
       <div className="mb-6">
         <h3 className="font-semibold text-slate-100 mb-3">Keywords</h3>
