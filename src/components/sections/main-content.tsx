@@ -476,12 +476,36 @@ export function MainContent() {
               <p className="text-slate-100 mb-3">
                 Lukka is a B2B SaaS and data company in the cryptocurrency sector.  
               </p>
-              <ul className="list-disc list-outside space-y-1 text-slate-300">
-                <li> Developed quantitative crypto-data products and models: implied-rate term structures, volatility surfaces, margin/risk models, derivative pricing, 
-                  on-chain market analytics, and more.</li>
-                <li> Co-invented a (patent pending) algorithm to aggregate fragmented funding/interest rates, allowing fair-value pricing and benchmarking.</li>
-                <li> Developed novel risk models for decentralized finance (DeFi) positions, for which there is no traditional finance framework to lean on. </li>
-                <li> Owned the full product lifecycle of all projects involved with, from ideation to production. </li>
+              <ul className="space-y-2 text-slate-300">
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-1">•</span>
+                  <span>
+                    Developed quantitative crypto-data products and models: implied-rate term
+                    structures, volatility surfaces, margin/risk models, derivative pricing,
+                    on-chain market analytics, and more.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-1">•</span>
+                  <span>
+                    Co-invented a (patent pending) algorithm to aggregate fragmented
+                    funding/interest rates, allowing fair-value pricing and benchmarking.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-1">•</span>
+                  <span>
+                    Developed novel risk models for decentralized finance (DeFi) positions,
+                    for which there is no traditional finance framework to lean on.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-1">•</span>
+                  <span>
+                    Owned the full product lifecycle of all projects involved with, from
+                    ideation to production.
+                  </span>
+                </li>
               </ul>
             </CardContent>
           </Card>
@@ -497,56 +521,6 @@ export function MainContent() {
               <p className="text-slate-100 mb-3">
                 Proprietary trading. Primarily focused on short term volatility estimation and prediction under a volatility trader.
               </p>
-              <ul className="list-disc list-outside space-y-1 text-slate-300">
-                <li> Built a microstructure-noise-robust volatility estimator that converts high-frequency data of 10-minutes length into reliable
-                annualized-volatility forecasts—shrinking latency from 60 min to &lt; 10 min </li>
-                <li> Created pipelines for ingesting, cleaning, and storing data. </li>
-                <li> Developed an interactive visualization interface for insight generation using Bokeh. </li>
-              </ul>
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardHeader>
-              <CardTitle className="text-lg">
-               Theoretical/Computational Physicist at Purdue University
-              </CardTitle>
-              <p className="text-muted-foreground">2018-2020</p>
-            </CardHeader>
-            <CardContent>
-              <p className="text-slate-100 mb-3">
-                Field of focus: Optomechanics, a subfield of Atomic, Molecular, and Optical (AMO) Physics
-              </p>
-              <ul className="list-disc list-outside space-y-1 text-slate-300">
-                <li> Designed control and modeling strategies for cooling the motion of a levitated nanoparticle to the quantum
-                regime. </li>
-                <li> Developed original analytic and numerical models for stochastic, coupled dynamical systems, providing a
-                rigorous framework for predicting and controlling nanoscale motion.</li>
-                <li> Implemented high-performance Monte Carlo solvers in C/C++ to tackle nonlinear, multivariate PDEs with
-                stochasticity, dramatically accelerating simulation workflows and enabling rapid experimentation. </li>
-                <li> Strongly contributed to weekly team collaborations with experimentalists for journal club, sharing insights
-                and distilling complex results into clear actions that guided new measurement protocols and peer-reviewed
-                publications. </li>
-              </ul>
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardHeader>
-              <CardTitle className="text-lg">
-               Experimental Physicist at Purdue University
-              </CardTitle>
-              <p className="text-muted-foreground">2015-2017</p>
-            </CardHeader>
-            <CardContent>
-              <p className="text-slate-100 mb-3">
-                Field of focus: Condensed Matter, Quantum Computing
-              </p>
-              {/* <ul className="list-disc list-outside space-y-1 text-slate-300">
-                <li> Designed and produced high-frequency, low temperature electronics for quantum computing experiments. </li>
-                <li> Modeled, fabricated, and tested nanometer-scale superconducting circuits</li>
-                <li> Tested self-built superconducting circuits in dilution refrigerators and He3 systems ranging from 10-100mK. </li>
-              </ul> */}
               <ul className="space-y-2 text-slate-300">
                 <li className="flex items-start gap-2">
                   <span className="text-blue-400 mt-1">•</span>
@@ -568,7 +542,87 @@ export function MainContent() {
                   </span>
                 </li>
               </ul>
+            </CardContent>
+          </Card>
 
+          <Card>
+            <CardHeader>
+              <CardTitle className="text-lg">
+               Theoretical/Computational Physicist at Purdue University
+              </CardTitle>
+              <p className="text-muted-foreground">2018-2020</p>
+            </CardHeader>
+            <CardContent>
+              <p className="text-slate-100 mb-3">
+                Field of focus: Optomechanics, a subfield of Atomic, Molecular, and Optical (AMO) Physics
+              </p>
+              <ul className="space-y-2 text-slate-300">
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-1">•</span>
+                  <span>
+                    Designed control and modeling strategies for cooling the motion of a
+                    levitated nanoparticle to the quantum regime.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-1">•</span>
+                  <span>
+                    Developed original analytic and numerical models for stochastic, coupled
+                    dynamical systems for predicting and controlling nanoscale motion.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-1">•</span>
+                  <span>
+                    Implemented high-performance Monte Carlo solvers in C/C++ to tackle
+                    nonlinear, multivariate PDEs with stochasticity.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-1">•</span>
+                  <span>
+                    Weekly team collaborations with experimentalists for journal club,
+                    sharing insights and results.
+                  </span>
+                </li>
+              </ul>
+
+            </CardContent>
+          </Card>
+
+          <Card>
+            <CardHeader>
+              <CardTitle className="text-lg">
+               Experimental Physicist at Purdue University
+              </CardTitle>
+              <p className="text-muted-foreground">2015-2017</p>
+            </CardHeader>
+            <CardContent>
+              <p className="text-slate-100 mb-3">
+                Field of focus: Condensed Matter, Quantum Computing
+              </p>
+              <ul className="space-y-2 text-slate-300">
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-1">•</span>
+                  <span>
+                    Designed and produced high-frequency, low temperature electronics for
+                    quantum computing experiments.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-1">•</span>
+                  <span>
+                    Modeled, fabricated, and tested nanometer-scale superconducting circuits.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-1">•</span>
+                  <span>
+                    Tested self-built superconducting circuits in dilution refrigerators and
+                    He3 systems ranging from 10–100 mK.
+                  </span>
+                </li>
+              </ul>
             </CardContent>
           </Card>
         </div>
