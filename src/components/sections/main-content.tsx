@@ -39,15 +39,15 @@ export function MainContent() {
                 <h4 className="font-semibold text-slate-100 mb-2">Key Achievements:</h4>
                 <ul className="space-y-2 text-slate-100">
                   <li className="flex items-start gap-2">
-                    <span className="text-blue-400 mt-1">•</span>
+                    <span className="text-blue-400 text-lg leading-snug">•</span>
                     <span>Designed and validated an automated market-making strategy that achieved a Sharpe ratio of 4.97 in a four-month, walk-forward out-of-sample test on high-frequency data.</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-blue-400 mt-1">•</span>
+                    <span className="text-blue-400 text-lg leading-snug">•</span>
                     <span>Researched and engineered custom-built sequential-learning models—transformers, LSTMs, and reinforcement-learning agents—to optimize inventory, quoting, and hedging decisions.</span>
                   </li>
                   <li className="flex items-start gap-2">
-                  <span className="text-blue-400 mt-1">•</span>
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
                     <span> Authored high-performance Python libraries that ingest, cleanse, and store various data fields, cutting data-processing latency by 80% and enabling daily model retraining. </span>
                   </li>
                 </ul>
@@ -57,7 +57,7 @@ export function MainContent() {
                 <h4 className="font-semibold text-slate-100 mb-2">Technical Leadership:</h4>
                 <ul className="space-y-2 text-slate-100">
                   <li className="flex items-start gap-2">
-                    <span className="text-blue-400 mt-1">•</span>
+                    <span className="text-blue-400 text-lg leading-snug">•</span>
                     <span>Directed and mentored a two-engineer team that built the cloud-native execution stack on AWS (Python | Django REST | micro-services), reviewed PRs, and set code-quality and risk-control standards.</span>
                   </li>
                 </ul>
@@ -222,12 +222,20 @@ export function MainContent() {
               </div>
             </CardHeader>
             <CardContent>
-              <p className="text-slate-300 mb-3">
-                Experimental demonstration of cooling the 3 translational and 2 rotational degrees of freedom of an optically levitated nanodumbbell.
-                Evidence of the rotational coupling and precession theorized by our work in 'Parametric Feedback Cooling of Rigid Body Nanodumbbells in Levitated Optomechanics' (see below).
-
-              </p>
-              <div className="flex gap-2">
+              <div className="space-y-2">
+                <h4 className="font-semibold text-slate-100 mb-2">Key Contributions:</h4>
+                <ul className="space-y-2 text-slate-300">
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-400 text-lg leading-snug">•</span>
+                    <span>Experimental demonstration of cooling the 3 translational and 2 rotational degrees of freedom of an optically levitated nanodumbbell.</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-400 text-lg leading-snug">•</span>
+                    <span>Evidence of the rotational coupling and precession theorized by our work in 'Parametric Feedback Cooling of Rigid Body Nanodumbbells in Levitated Optomechanics' (see below).</span>
+                  </li>
+                </ul>
+              </div>
+              <div className="flex gap-2 mt-4">
                 <Button size="sm" variant="outline" asChild>
                   <a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.043054" target="_blank" rel="noopener noreferrer">
                     See Publication and PDF
@@ -248,11 +256,20 @@ export function MainContent() {
               </div>
             </CardHeader>
             <CardContent>
-              <p className="text-slate-300 mb-3">
-                For non-spherical particles such as nanodumbbells, one must consider the rotations as well as translations in the dynamics of a levitated particle. 
-                This paper shows that, for nanodumbbells, attempting to cool the rotational degrees of freedom using parametric feedback cooling is only partially effective due to the third rotational degree of freedom being absent from the potential energy.
-              </p>
-              <div className="flex gap-2">
+              <div className="space-y-2">
+                <h4 className="font-semibold text-slate-100 mb-2">Key Findings:</h4>
+                <ul className="space-y-2 text-slate-300">
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-400 text-lg leading-snug">•</span>
+                    <span>For non-spherical particles such as nanodumbbells, one must consider the rotations as well as translations in the dynamics of a levitated particle.</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-400 text-lg leading-snug">•</span>
+                    <span>This paper shows that, for nanodumbbells, attempting to cool the rotational degrees of freedom using parametric feedback cooling is only partially effective due to the third rotational degree of freedom being absent from the potential energy.</span>
+                  </li>
+                </ul>
+              </div>
+              <div className="flex gap-2 mt-4">
               <Button size="sm" variant="outline" asChild>
                   <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.99.013821" target="_blank" rel="noopener noreferrer">
                     See Publication
@@ -278,11 +295,20 @@ export function MainContent() {
               </div>
             </CardHeader>
             <CardContent>
-              <p className="text-slate-300 mb-3">
-                An inescapable source of noise and decoherence for an optically levitated particle is the shot-noise from the laser that constantly penetrates it.
-                This paper quantifies the amount of energy being distributed to the particle from a laser for point-like particles as well as larger radii particles where Mie Scattering is relevant. 
-              </p>
-              <div className="flex gap-2">
+              <div className="space-y-2">
+                <h4 className="font-semibold text-slate-100 mb-2">Research Focus:</h4>
+                <ul className="space-y-2 text-slate-300">
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-400 text-lg leading-snug">•</span>
+                    <span>An inescapable source of noise and decoherence for an optically levitated particle is the shot-noise from the laser that constantly penetrates it.</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-400 text-lg leading-snug">•</span>
+                    <span>This paper quantifies the amount of energy being distributed to the particle from a laser for point-like particles as well as larger radii particles where Mie Scattering is relevant.</span>
+                  </li>
+                </ul>
+              </div>
+              <div className="flex gap-2 mt-4">
               <Button size="sm" variant="outline" asChild>
                   <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.102.033505" target="_blank" rel="noopener noreferrer">
                     See Publication
@@ -308,12 +334,24 @@ export function MainContent() {
               </div>
             </CardHeader>
             <CardContent>
-              <p className="text-slate-300 mb-3">
-                This paper outlines a neat strategy for cooling the motion of a spherical particle down to the quantum regime. 
-                It involves optically trapping a magnetic particle, and then linearly coupling it with an already cooled gas of magnetically polarized and trapped atoms. 
-                When the gas and particle's trapping frequencies are tuned to resononance, the particle effectively cools.
-              </p>
-              <div className="flex gap-2">
+              <div className="space-y-2">
+                <h4 className="font-semibold text-slate-100 mb-2">Innovation:</h4>
+                <ul className="space-y-2 text-slate-300">
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-400 text-lg leading-snug">•</span>
+                    <span>This paper outlines a neat strategy for cooling the motion of a spherical particle down to the quantum regime.</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-400 text-lg leading-snug">•</span>
+                    <span>It involves optically trapping a magnetic particle, and then linearly coupling it with an already cooled gas of magnetically polarized and trapped atoms.</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-400 text-lg leading-snug">•</span>
+                    <span>When the gas and particle's trapping frequencies are tuned to resononance, the particle effectively cools.</span>
+                  </li>
+                </ul>
+              </div>
+              <div className="flex gap-2 mt-4">
               <Button size="sm" variant="outline" asChild>
                   <a href="https://opg.optica.org/josab/abstract.cfm?uri=josab-37-12-3714" target="_blank" rel="noopener noreferrer">
                     See Publication
@@ -339,11 +377,20 @@ export function MainContent() {
               </div>
             </CardHeader>
             <CardContent>
-              <p className="text-slate-300 mb-3">
-                As part of a Sandia National Lab project, we investigated the dynamics of large optically trapped disks (2 microns, 200 nm). 
-                Due to its larger size, the laser's electric field varies across the disk, introducing interesting rotational-translational couplings and therefore rich dynamics.
-              </p>
-              <div className="flex gap-2">
+              <div className="space-y-2">
+                <h4 className="font-semibold text-slate-100 mb-2">Research Scope:</h4>
+                <ul className="space-y-2 text-slate-300">
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-400 text-lg leading-snug">•</span>
+                    <span>As part of a Sandia National Lab project, we investigated the dynamics of large optically trapped disks (2 microns, 200 nm).</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-400 text-lg leading-snug">•</span>
+                    <span>Due to its larger size, the laser's electric field varies across the disk, introducing interesting rotational-translational couplings and therefore rich dynamics.</span>
+                  </li>
+                </ul>
+              </div>
+              <div className="flex gap-2 mt-4">
               <Button size="sm" variant="outline" asChild>
                   <a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.033437" target="_blank" rel="noopener noreferrer">
                     See Publication and PDF
@@ -421,18 +468,43 @@ export function MainContent() {
           <Card>
             <CardHeader>
               <CardTitle className="text-lg">
-                [Position Title] at [Company Name]
+                Quantitative Researcher at Lukka
               </CardTitle>
-              <p className="text-slate-300">[Duration, e.g., 2020-2023]</p>
+              <p className="text-slate-300">2021-2024</p>
             </CardHeader>
             <CardContent>
               <p className="text-slate-100 mb-3">
-                [Brief description of role and responsibilities]
+                Lukka is a B2B SaaS and data company in the cryptocurrency sector.  
               </p>
-              <ul className="space-y-1 text-slate-300">
-                <li>• [Key responsibility or achievement 1]</li>
-                <li>• [Key responsibility or achievement 2]</li>
-                <li>• [Key responsibility or achievement 3]</li>
+              <ul className="space-y-2 text-slate-300">
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
+                  <span>
+                    Developed quantitative crypto-data products and models: implied-rate term
+                    structures, volatility surfaces, margin/risk models, derivative pricing,
+                    on-chain market analytics, and more.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
+                  <span>
+                    Co-invented a (patent pending) algorithm to aggregate fragmented funding/interest rates, allowing fair-value pricing and benchmarking.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
+                  <span>
+                    Developed novel risk models for decentralized finance (DeFi) positions,
+                    for which there is no traditional finance framework to lean on.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
+                  <span>
+                    Owned the full product lifecycle of all projects involved with, from
+                    ideation to production.
+                  </span>
+                </li>
               </ul>
             </CardContent>
           </Card>
@@ -440,18 +512,115 @@ export function MainContent() {
           <Card>
             <CardHeader>
               <CardTitle className="text-lg">
-                [Position Title] at [Company Name]
+               Quantitative Researcher at Creative Results
               </CardTitle>
-              <p className="text-muted-foreground">[Duration, e.g., 2018-2020]</p>
+              <p className="text-muted-foreground">2021</p>
             </CardHeader>
             <CardContent>
               <p className="text-slate-100 mb-3">
-                [Brief description of role and responsibilities]
+                Proprietary trading. Primarily focused on short term volatility estimation and prediction under a volatility trader.
               </p>
-              <ul className="space-y-1 text-slate-300">
-                <li>• [Key responsibility or achievement 1]</li>
-                <li>• [Key responsibility or achievement 2]</li>
-                <li>• [Key responsibility or achievement 3]</li>
+              <ul className="space-y-2 text-slate-300">
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
+                  <span>
+                    Built a microstructure-noise-robust volatility estimator that converts
+                    high-frequency data of 10-minutes length into reliable
+                    annualized-volatility forecasts—shrinking latency from 60 min to &lt; 10 min
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
+                  <span>Created pipelines for ingesting, cleaning, and storing data.</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
+                  <span>
+                    Developed an interactive visualization interface for insight generation
+                    using Bokeh.
+                  </span>
+                </li>
+              </ul>
+            </CardContent>
+          </Card>
+
+          <Card>
+            <CardHeader>
+              <CardTitle className="text-lg">
+               Theoretical/Computational Physicist at Purdue University
+              </CardTitle>
+              <p className="text-muted-foreground">2018-2020</p>
+            </CardHeader>
+            <CardContent>
+              <p className="text-slate-100 mb-3">
+                Field of focus: Optomechanics, a subfield of Atomic, Molecular, and Optical (AMO) Physics
+              </p>
+              <ul className="space-y-2 text-slate-300">
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
+                  <span>
+                    Designed control and modeling strategies for cooling the motion of a
+                    levitated nanoparticle to the quantum regime.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
+                  <span>
+                    Developed original analytic and numerical models for stochastic, coupled
+                    dynamical systems for predicting and controlling nanoscale motion.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
+                  <span>
+                    Implemented high-performance Monte Carlo solvers in C/C++ to tackle
+                    nonlinear, multivariate PDEs with stochasticity.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
+                  <span>
+                    Weekly team collaborations with experimentalists for journal club,
+                    sharing insights and results.
+                  </span>
+                </li>
+              </ul>
+
+            </CardContent>
+          </Card>
+
+          <Card>
+            <CardHeader>
+              <CardTitle className="text-lg">
+               Experimental Physicist at Purdue University
+              </CardTitle>
+              <p className="text-muted-foreground">2015-2017</p>
+            </CardHeader>
+            <CardContent>
+              <p className="text-slate-100 mb-3">
+                Field of focus: Condensed Matter, Quantum Computing
+              </p>
+              <ul className="space-y-2 text-slate-300">
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
+                  <span>
+                    Designed and produced high-frequency, low temperature electronics for
+                    quantum computing experiments.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
+                  <span>
+                    Modeled, fabricated, and tested nanometer-scale superconducting circuits.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
+                  <span>
+                    Tested self-built superconducting circuits in dilution refrigerators and
+                    He3 systems ranging from 10–100 mK.
+                  </span>
+                </li>
               </ul>
             </CardContent>
           </Card>
