@@ -476,8 +476,8 @@ export function MainContent() {
               <p className="text-slate-100 mb-3">
                 Lukka is a B2B SaaS and data company in the cryptocurrency sector.  
               </p>
-              <ul className="list-disc list-inside space-y-1 text-slate-300">
-                <li> I built quantitative crypto-data products and models: implied-rate term structures, volatility surfaces, margin/risk models, derivative pricing, 
+              <ul className="list-disc list-outside space-y-1 text-slate-300">
+                <li> Developed quantitative crypto-data products and models: implied-rate term structures, volatility surfaces, margin/risk models, derivative pricing, 
                   on-chain market analytics, and more.</li>
                 <li> Co-invented a (patent pending) algorithm to aggregate fragmented funding/interest rates, allowing fair-value pricing and benchmarking.</li>
                 <li> Developed novel risk models for decentralized finance (DeFi) positions, for which there is no traditional finance framework to lean on. </li>
@@ -517,14 +517,14 @@ export function MainContent() {
               <p className="text-slate-100 mb-3">
                 Field of focus: Optomechanics, a subfield of Atomic, Molecular, and Optical (AMO) Physics
               </p>
-              <ul className="space-y-1 text-slate-300">
-                <li>• Designed control and modeling strategies for cooling the motion of a levitated nanoparticle to the quantum
+              <ul className="list-disc list-outside space-y-1 text-slate-300">
+                <li> Designed control and modeling strategies for cooling the motion of a levitated nanoparticle to the quantum
                 regime. </li>
-                <li>• Developed original analytic and numerical models for stochastic, coupled dynamical systems, providing a
+                <li> Developed original analytic and numerical models for stochastic, coupled dynamical systems, providing a
                 rigorous framework for predicting and controlling nanoscale motion.</li>
-                <li>• Implemented high-performance Monte Carlo solvers in C/C++ to tackle nonlinear, multivariate PDEs with
+                <li> Implemented high-performance Monte Carlo solvers in C/C++ to tackle nonlinear, multivariate PDEs with
                 stochasticity, dramatically accelerating simulation workflows and enabling rapid experimentation. </li>
-                <li>• Strongly contributed to weekly team collaborations with experimentalists for journal club, sharing insights
+                <li> Strongly contributed to weekly team collaborations with experimentalists for journal club, sharing insights
                 and distilling complex results into clear actions that guided new measurement protocols and peer-reviewed
                 publications. </li>
               </ul>
@@ -542,10 +542,10 @@ export function MainContent() {
               <p className="text-slate-100 mb-3">
                 Field of focus: Condensed Matter, Quantum Computing
               </p>
-              <ul className="space-y-1 text-slate-300">
-                <li>• Designed and produced high-frequency, low temperature electronics for quantum computing experiments. </li>
-                <li>• Modeled, fabricated, and tested nanometer-scale superconducting circuits</li>
-                <li>• Tested self-built superconducting circuits in dilution refrigerators and He3 systems ranging from 10-100mK. </li>
+              <ul className="list-disc list-outside space-y-1 text-slate-300">
+                <li> Designed and produced high-frequency, low temperature electronics for quantum computing experiments. </li>
+                <li> Modeled, fabricated, and tested nanometer-scale superconducting circuits</li>
+                <li> Tested self-built superconducting circuits in dilution refrigerators and He3 systems ranging from 10-100mK. </li>
               </ul>
             </CardContent>
           </Card>
