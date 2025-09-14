@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Separator } from "@/components/ui/separator";
 
 const Projects = () => {
   return (
@@ -13,7 +14,15 @@ const Projects = () => {
           </h2>
         </div>
 
-        <div className="grid gap-6 md:grid-cols-2">
+        <div>
+            <p className="text-slate-100 leading-relaxed">
+              Unfortunately most of my projects are not for public view, but I will try to share what I can here! 
+            </p>
+          </div>
+
+          <Separator className="my-4"/>
+
+        {/* <div className="grid gap-6 md:grid-cols-2">
           <Card className="group hover:shadow-lg transition-shadow duration-300">
             <CardHeader>
               <CardTitle className="text-lg flex items-center justify-between">
@@ -135,7 +144,7 @@ const Projects = () => {
               </div>
             </CardContent>
           </Card>
-        </div>
+        </div> */}
       </section>
     </main>
   );

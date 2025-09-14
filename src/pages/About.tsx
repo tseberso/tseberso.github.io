@@ -24,13 +24,18 @@ const About = () => {
           <Separator />
 
           <div>
-            <h3 className="text-xl font-semibold text-slate-100 mb-4">Career</h3>
+            <h3 className="text-xl font-semibold text-slate-100 mb-4">Everyday Interests</h3>
             <p className="text-slate-100 leading-relaxed mb-4">
-              I am currently a <strong>Quantitative Researcher</strong> at Steady State Capital
-              generating insights and strategies using machine learning, reinforcement learning, and LLM agent-based modeling.
+              <strong>Learning</strong> - Non-stop learner of all things via non-fiction, textbooks, publications, articles, and social media primarily in the tech, finance,science, and business sectors.   
+            </p>  
+            <p className="text-slate-100 leading-relaxed mb-4">
+              <strong>Sports</strong> - I love to play hockey, pickleball, and any impromptu pick-up games. I also enjoy lifting, snowboarding, and running.
+            </p>  
+            <p className="text-slate-100 leading-relaxed mb-4">
+              <strong>Activities</strong> - Board games, personal finance, coding, logic and math puzzles, enjoying nature, and learning new things.
             </p>
 
-            <div className="space-y-4">
+            {/* <div className="space-y-4">
               <div>
                 <h4 className="font-semibold text-slate-100 mb-2">Key Achievements:</h4>
                 <ul className="space-y-2 text-slate-100">
@@ -58,7 +63,7 @@ const About = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
