@@ -6,12 +6,12 @@ import { Badge } from "@/components/ui/badge";
 export function MainContent() {
   return (
     <main className="flex-1 p-4 md:p-8 max-w-4xl mx-auto w-full">
-      {/* About Me Section */}
+      {/* About Section */}
       <section id="about" className="mb-12">
         <div className="mb-8">
           <h2 className="text-3xl font-bold text-slate-100 mb-2 flex items-center gap-2">
             <span className="text-blue-400">📋</span>
-            About Me
+            About
           </h2>
         </div>
 
@@ -67,139 +67,69 @@ export function MainContent() {
         </div>
       </section>
 
-      {/* Projects Section */}
-      {/* <section id="projects" className="mb-12">
+      {/* Education Section */}
+      <section id="education" className="mb-12">
         <div className="mb-8">
           <h2 className="text-3xl font-bold text-slate-100 mb-2 flex items-center gap-2">
-            <span className="text-blue-400">🚀</span>
-            Projects
+            <span className="text-blue-400">🎓</span>
+            Education
           </h2>
         </div>
 
-        <div className="grid gap-6 md:grid-cols-2">
-          <Card className="group hover:shadow-lg transition-shadow duration-300">
+        <div className="space-y-6">
+          <Card>
             <CardHeader>
-              <CardTitle className="text-lg flex items-center justify-between">
-                [Project Name 1]
-                <Badge variant="secondary">Featured</Badge>
+              <CardTitle className="text-lg">
+                Ph.D. in Physics
               </CardTitle>
-              <div className="flex flex-wrap gap-2">
-                <Badge variant="outline">React</Badge>
-                <Badge variant="outline">TypeScript</Badge>
-                <Badge variant="outline">Python</Badge>
-              </div>
+              <p className="text-slate-300">Purdue University • 2015-2020</p>
             </CardHeader>
             <CardContent>
-              <p className="text-slate-300 mb-4">
-                [Brief description of project, what it does, and what technologies were used. 
-                Highlight key features and impact.]
+              <p className="text-slate-100 mb-3">
+                Theoretical/Computational Physics with focus on Optomechanics, a subfield of Atomic, Molecular, and Optical (AMO) Physics
               </p>
-              <div className="flex gap-2">
-                <Button size="sm" variant="outline" asChild>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    Live Demo
-                  </a>
-                </Button>
-                <Button size="sm" variant="outline" asChild>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    GitHub
-                  </a>
-                </Button>
-              </div>
+              <ul className="space-y-2 text-slate-300">
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
+                  <span>Dissertation: Advanced control strategies for cooling levitated nanoparticles to the quantum regime</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
+                  <span>Published 5 peer-reviewed papers in high-impact physics journals</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
+                  <span>Developed novel computational models for stochastic dynamical systems</span>
+                </li>
+              </ul>
             </CardContent>
           </Card>
 
-          <Card className="group hover:shadow-lg transition-shadow duration-300">
+          <Card>
             <CardHeader>
               <CardTitle className="text-lg">
-                [Project Name 2]
+                M.S. in Physics
               </CardTitle>
-              <div className="flex flex-wrap gap-2">
-                <Badge variant="outline">Machine Learning</Badge>
-                <Badge variant="outline">PyTorch</Badge>
-                <Badge variant="outline">Docker</Badge>
-              </div>
+              <p className="text-slate-300">Purdue University • 2015-2017</p>
             </CardHeader>
             <CardContent>
-              <p className="text-slate-300 mb-4">
-                [Brief description of  second project. Focus on unique aspects and results achieved.]
+              <p className="text-slate-100 mb-3">
+                Experimental Physics with focus on Condensed Matter and Quantum Computing
               </p>
-              <div className="flex gap-2">
-                <Button size="sm" variant="outline" asChild>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    Paper
-                  </a>
-                </Button>
-                <Button size="sm" variant="outline" asChild>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    Code
-                  </a>
-                </Button>
-              </div>
-            </CardContent>
-          </Card>
-
-          <Card className="group hover:shadow-lg transition-shadow duration-300">
-            <CardHeader>
-              <CardTitle className="text-lg">
-                [Project Name 3]
-              </CardTitle>
-              <div className="flex flex-wrap gap-2">
-                <Badge variant="outline">Data Science</Badge>
-                <Badge variant="outline">Visualization</Badge>
-                <Badge variant="outline">D3.js</Badge>
-              </div>
-            </CardHeader>
-            <CardContent>
-              <p className="text-slate-300 mb-4">
-                [Description of data visualization or analysis project. Mention insights discovered or impact made.]
-              </p>
-              <div className="flex gap-2">
-                <Button size="sm" variant="outline" asChild>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    Dashboard
-                  </a>
-                </Button>
-                <Button size="sm" variant="outline" asChild>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    GitHub
-                  </a>
-                </Button>
-              </div>
-            </CardContent>
-          </Card>
-
-          <Card className="group hover:shadow-lg transition-shadow duration-300">
-            <CardHeader>
-              <CardTitle className="text-lg">
-                [Project Name 4]
-              </CardTitle>
-              <div className="flex flex-wrap gap-2">
-                <Badge variant="outline">Open Source</Badge>
-                <Badge variant="outline">API</Badge>
-                <Badge variant="outline">Node.js</Badge>
-              </div>
-            </CardHeader>
-            <CardContent>
-              <p className="text-slate-300 mb-4">
-                [Description of an open source contribution or API project. Highlight adoption or community impact.]
-              </p>
-              <div className="flex gap-2">
-                <Button size="sm" variant="outline" asChild>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    Documentation
-                  </a>
-                </Button>
-                <Button size="sm" variant="outline" asChild>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    GitHub
-                  </a>
-                </Button>
-              </div>
+              <ul className="space-y-2 text-slate-300">
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
+                  <span>Designed and fabricated nanometer-scale superconducting circuits</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 text-lg leading-snug">•</span>
+                  <span>Expertise in low-temperature electronics and quantum device characterization</span>
+                </li>
+              </ul>
             </CardContent>
           </Card>
         </div>
-      </section> */}
+      </section>
 
       {/* Publications Section */}
       <section id="publications" className="mb-12">
@@ -403,60 +333,8 @@ export function MainContent() {
         </div>
       </section>
 
-      {/* Resources Section */}
-      {/* <section id="resources" className="mb-12">
-        <div className="mb-8">
-          <h2 className="text-3xl font-bold text-slate-100 mb-2 flex items-center gap-2">
-            <span className="text-blue-400">🔗</span>
-            Helpful Resources
-          </h2>
-        </div>
-
-        <div className="grid gap-4 md:grid-cols-2">
-          <Card>
-            <CardHeader>
-              <CardTitle className="text-lg">Resource Category 1</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <ul className="space-y-2">
-                <li>
-                  <a href="#" className="text-blue-400 hover:underline">
-                    [Resource Link 1]
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-blue-400 hover:underline">
-                    [Resource Link 2]
-                  </a>
-                </li>
-              </ul>
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardHeader>
-              <CardTitle className="text-lg">Resource Category 2</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <ul className="space-y-2">
-                <li>
-                  <a href="#" className="text-blue-400 hover:underline">
-                    [Resource Link 3]
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="text-blue-400 hover:underline">
-                    [Resource Link 4]
-                  </a>
-                </li>
-              </ul>
-            </CardContent>
-          </Card>
-        </div>
-      </section> */}
-
       {/* Experience Section */}
-      <section id="experience">
+      <section id="experience" className="mb-12">
         <div className="mb-8">
           <h2 className="text-3xl font-bold text-slate-100 mb-2 flex items-center gap-2">
             <span className="text-blue-400">💼</span>
@@ -622,6 +500,140 @@ export function MainContent() {
                   </span>
                 </li>
               </ul>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
+      {/* Projects Section */}
+      <section id="projects">
+        <div className="mb-8">
+          <h2 className="text-3xl font-bold text-slate-100 mb-2 flex items-center gap-2">
+            <span className="text-blue-400">🚀</span>
+            Projects
+          </h2>
+        </div>
+
+        <div className="grid gap-6 md:grid-cols-2">
+          <Card className="group hover:shadow-lg transition-shadow duration-300">
+            <CardHeader>
+              <CardTitle className="text-lg flex items-center justify-between">
+                [Project Name 1]
+                <Badge variant="secondary">Featured</Badge>
+              </CardTitle>
+              <div className="flex flex-wrap gap-2">
+                <Badge variant="outline">React</Badge>
+                <Badge variant="outline">TypeScript</Badge>
+                <Badge variant="outline">Python</Badge>
+              </div>
+            </CardHeader>
+            <CardContent>
+              <p className="text-slate-300 mb-4">
+                [Brief description of project, what it does, and what technologies were used. 
+                Highlight key features and impact.]
+              </p>
+              <div className="flex gap-2">
+                <Button size="sm" variant="outline" asChild>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    Live Demo
+                  </a>
+                </Button>
+                <Button size="sm" variant="outline" asChild>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    GitHub
+                  </a>
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card className="group hover:shadow-lg transition-shadow duration-300">
+            <CardHeader>
+              <CardTitle className="text-lg">
+                [Project Name 2]
+              </CardTitle>
+              <div className="flex flex-wrap gap-2">
+                <Badge variant="outline">Machine Learning</Badge>
+                <Badge variant="outline">PyTorch</Badge>
+                <Badge variant="outline">Docker</Badge>
+              </div>
+            </CardHeader>
+            <CardContent>
+              <p className="text-slate-300 mb-4">
+                [Brief description of  second project. Focus on unique aspects and results achieved.]
+              </p>
+              <div className="flex gap-2">
+                <Button size="sm" variant="outline" asChild>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    Paper
+                  </a>
+                </Button>
+                <Button size="sm" variant="outline" asChild>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    Code
+                  </a>
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card className="group hover:shadow-lg transition-shadow duration-300">
+            <CardHeader>
+              <CardTitle className="text-lg">
+                [Project Name 3]
+              </CardTitle>
+              <div className="flex flex-wrap gap-2">
+                <Badge variant="outline">Data Science</Badge>
+                <Badge variant="outline">Visualization</Badge>
+                <Badge variant="outline">D3.js</Badge>
+              </div>
+            </CardHeader>
+            <CardContent>
+              <p className="text-slate-300 mb-4">
+                [Description of data visualization or analysis project. Mention insights discovered or impact made.]
+              </p>
+              <div className="flex gap-2">
+                <Button size="sm" variant="outline" asChild>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    Dashboard
+                  </a>
+                </Button>
+                <Button size="sm" variant="outline" asChild>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    GitHub
+                  </a>
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card className="group hover:shadow-lg transition-shadow duration-300">
+            <CardHeader>
+              <CardTitle className="text-lg">
+                [Project Name 4]
+              </CardTitle>
+              <div className="flex flex-wrap gap-2">
+                <Badge variant="outline">Open Source</Badge>
+                <Badge variant="outline">API</Badge>
+                <Badge variant="outline">Node.js</Badge>
+              </div>
+            </CardHeader>
+            <CardContent>
+              <p className="text-slate-300 mb-4">
+                [Description of an open source contribution or API project. Highlight adoption or community impact.]
+              </p>
+              <div className="flex gap-2">
+                <Button size="sm" variant="outline" asChild>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    Documentation
+                  </a>
+                </Button>
+                <Button size="sm" variant="outline" asChild>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    GitHub
+                  </a>
+                </Button>
+              </div>
             </CardContent>
           </Card>
         </div>
