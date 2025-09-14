@@ -1,38 +1,16 @@
 import { Button } from "@/components/ui/button";
-import { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 export function TopNavbar() {
-  const [activeSection, setActiveSection] = useState("about");
+  const location = useLocation();
 
   const navigationItems = [
-    { href: "#about", label: "About", id: "about" },
-    { href: "#education", label: "Education", id: "education" },
-    { href: "#publications", label: "Publications", id: "publications" },
-    { href: "#experience", label: "Experience", id: "experience" },
-    { href: "#projects", label: "Projects", id: "projects" }
+    { href: "/", label: "About", path: "/" },
+    { href: "/education", label: "Education", path: "/education" },
+    { href: "/publications", label: "Publications", path: "/publications" },
+    { href: "/experience", label: "Experience", path: "/experience" },
+    { href: "/projects", label: "Projects", path: "/projects" }
   ];
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const sections = navigationItems.map(item => item.id);
-      let currentSection = "about";
-
-      for (const section of sections) {
-        const element = document.getElementById(section);
-        if (element) {
-          const rect = element.getBoundingClientRect();
-          if (rect.top <= 100 && rect.bottom >= 100) {
-            currentSection = section;
-          }
-        }
-      }
-
-      setActiveSection(currentSection);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
 
   return (
     <nav className="bg-slate-800 border-b border-slate-700 px-6 py-4">
@@ -52,13 +30,13 @@ export function TopNavbar() {
                 variant="ghost"
                 size="sm"
                 className={`${
-                  activeSection === item.id
+                  location.pathname === item.path
                     ? "text-blue-400 bg-slate-700" 
                     : "text-slate-300 hover:text-slate-100 hover:bg-slate-700"
                 }`}
                 asChild
               >
-                <a href={item.href}>{item.label}</a>
+                <Link to={item.href}>{item.label}</Link>
               </Button>
             ))}
           </div>
@@ -90,13 +68,13 @@ export function TopNavbar() {
                 variant="ghost"
                 size="sm"
                 className={`justify-start ${
-                  activeSection === item.id
+                  location.pathname === item.path
                     ? "text-blue-400 bg-slate-700" 
                     : "text-slate-300 hover:text-slate-100 hover:bg-slate-700"
                 }`}
                 asChild
               >
-                <a href={item.href}>{item.label}</a>
+                <Link to={item.href}>{item.label}</Link>
               </Button>
             ))}
           </div>
