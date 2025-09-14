@@ -5,11 +5,11 @@ export function TopNavbar() {
   const [activeSection, setActiveSection] = useState("about");
 
   const navigationItems = [
-    { href: "#about", label: "About Me", id: "about" },
-    { href: "#projects", label: "Projects", id: "projects" },
+    { href: "#about", label: "About", id: "about" },
+    { href: "#education", label: "Education", id: "education" },
     { href: "#publications", label: "Publications", id: "publications" },
-    { href: "#resources", label: "Resources", id: "resources" },
-    { href: "#experience", label: "Experience", id: "experience" }
+    { href: "#experience", label: "Experience", id: "experience" },
+    { href: "#projects", label: "Projects", id: "projects" }
   ];
 
   useEffect(() => {
