@@ -8,7 +8,7 @@ import { TopNavbar } from "@/components/layout/top-navbar";
 import About from "./pages/About";
 import Education from "./pages/Education";
 import Publications from "./pages/Publications";
-import Experience from "./pages/Experience";
+import Career from "./pages/Career";
 import Projects from "./pages/Projects";
 import NotFound from "./pages/NotFound";
 
@@ -30,7 +30,7 @@ const App = () => (
               <Route path="/" element={<About />} />
               <Route path="/education" element={<Education />} />
               <Route path="/publications" element={<Publications />} />
-              <Route path="/experience" element={<Experience />} />
+              <Route path="/career" element={<Career />} />
               <Route path="/projects" element={<Projects />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />

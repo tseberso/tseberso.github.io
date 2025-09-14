@@ -8,7 +8,7 @@ export function TopNavbar() {
     { href: "/", label: "About", path: "/" },
     { href: "/education", label: "Education", path: "/education" },
     { href: "/publications", label: "Publications", path: "/publications" },
-    { href: "/experience", label: "Experience", path: "/experience" },
+    { href: "/career", label: "Career", path: "/career" },
     { href: "/projects", label: "Projects", path: "/projects" }
   ];
 

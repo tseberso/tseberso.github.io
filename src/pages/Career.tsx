@@ -1,13 +1,13 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
-const Experience = () => {
+const Career = () => {
   return (
     <main className="flex-1 p-4 md:p-8 max-w-4xl mx-auto w-full">
       <section className="mb-12">
         <div className="mb-8">
           <h2 className="text-3xl font-bold text-slate-100 mb-2 flex items-center gap-2">
             <span className="text-blue-400">💼</span>
-            Past Experience
+            Career
           </h2>
         </div>
 
@@ -177,4 +177,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Career;
