@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Separator } from "@/components/ui/separator";
 
 const Publications = () => {
   return (
@@ -9,9 +10,20 @@ const Publications = () => {
         <div className="mb-8">
           <h2 className="text-3xl font-bold text-slate-100 mb-2 flex items-center gap-2">
             <span className="text-blue-400">📚</span>
-            Publications and Preprints
+            Publications
           </h2>
         </div>
+
+        <div>
+          <p className="text-slate-100 leading-relaxed">
+          Read below or alternatively check out{" "}  
+            <a href="https://scholar.google.com/citations?user=KTt02z0AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
+            <u><strong>Google Scholar</strong></u>
+          </a>
+          </p>
+        </div>
+
+        <Separator className="my-4"/>
 
         <div className="space-y-6">
           <Card>

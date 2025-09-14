@@ -15,10 +15,10 @@ const Projects = () => {
         </div>
 
         <div>
-            <p className="text-slate-100 leading-relaxed">
-              Unfortunately most of my projects are not for public view, but I will try to share what I can here! 
-            </p>
-          </div>
+          <p className="text-slate-100 leading-relaxed">
+            Unfortunately most of my projects are not for public view, but I will try to share what I can here! 
+          </p>
+        </div>
 
           <Separator className="my-4"/>
 
