@@ -68,7 +68,7 @@ const Projects = () => {
             </CardHeader>
             <CardContent>
               <p className="text-slate-300 mb-4">
-                [Brief description of  second project. Focus on unique aspects and results achieved.]
+                [Brief description of  second project.]
               </p>
               <div className="flex gap-2">
                 <Button size="sm" variant="outline" asChild>
@@ -98,7 +98,7 @@ const Projects = () => {
             </CardHeader>
             <CardContent>
               <p className="text-slate-300 mb-4">
-                [Description of data visualization or analysis project. Mention insights discovered or impact made.]
+                [Description of data visualization, analysis project.]
               </p>
               <div className="flex gap-2">
                 <Button size="sm" variant="outline" asChild>
@@ -128,7 +128,7 @@ const Projects = () => {
             </CardHeader>
             <CardContent>
               <p className="text-slate-300 mb-4">
-                [Description of an open source contribution or API project. Highlight adoption or community impact.]
+                [Description of open source contribution  API project.]
               </p>
               <div className="flex gap-2">
                 <Button size="sm" variant="outline" asChild>

@@ -35,35 +35,7 @@ const About = () => {
               <strong>Activities</strong> - Board games, personal finance, coding, hanging with family and friends, enjoying nature, logic and math puzzles, DIY home projects, and learning new things.
             </p>
 
-            {/* <div className="space-y-4">
-              <div>
-                <h4 className="font-semibold text-slate-100 mb-2">Key Achievements:</h4>
-                <ul className="space-y-2 text-slate-100">
-                  <li className="flex items-start gap-2">
-                    <span className="text-blue-400 text-lg leading-snug">•</span>
-                    <span>Designed and validated an automated market-making strategy that achieved a Sharpe ratio of 4.97 in a four-month, walk-forward out-of-sample test on high-frequency data.</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-blue-400 text-lg leading-snug">•</span>
-                    <span>Researched and engineered custom-built sequential-learning models—transformers, LSTMs, and reinforcement-learning agents—to optimize inventory, quoting, and hedging decisions.</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                  <span className="text-blue-400 text-lg leading-snug">•</span>
-                    <span> Authored high-performance Python libraries that ingest, cleanse, and store various data fields, cutting data-processing latency by 80% and enabling daily model retraining. </span>
-                  </li>
-                </ul>
-              </div>
-
-              <div>
-                <h4 className="font-semibold text-slate-100 mb-2">Technical Leadership:</h4>
-                <ul className="space-y-2 text-slate-100">
-                  <li className="flex items-start gap-2">
-                    <span className="text-blue-400 text-lg leading-snug">•</span>
-                    <span>Directed and mentored a two-engineer team that built the cloud-native execution stack on AWS (Python | Django REST | micro-services), reviewed PRs, and set code-quality and risk-control standards.</span>
-                  </li>
-                </ul>
-              </div>
-            </div> */}
+            
           </div>
         </div>
       </section>
