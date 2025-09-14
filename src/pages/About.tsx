@@ -26,7 +26,7 @@ const About = () => {
           <div>
             <h3 className="text-xl font-semibold text-slate-100 mb-4">Everyday Interests</h3>
             <p className="text-slate-100 leading-relaxed mb-4">
-              <strong>Learning</strong> - Non-stop learner of all things via non-fiction, textbooks, publications, articles, and social media primarily in the tech, finance, science, and business sectors.   
+              <strong>Learning</strong> - Non-stop learner of all things via non-fiction, textbooks, publications, articles, documentaries, and social media primarily in the tech, finance, science, and business sectors.   
             </p>  
             <p className="text-slate-100 leading-relaxed mb-4">
               <strong>Sports</strong> - I love to play hockey, pickleball, and any impromptu pick-up games. I also enjoy lifting, snowboarding, and running.
